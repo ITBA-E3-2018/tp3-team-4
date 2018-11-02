@@ -1,0 +1,136 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{expl3}
+
+\ExplSyntaxOn
+\cs_new:Npn \displayasdecimal#1 {(#1) \sb {10}}
+\cs_new:Npn \displayasoctal #1 {(\int_to_oct:n{#1}) \sb 8}
+\cs_new:Npn \displayasbinary #1 {(\int_to_bin:n{#1}) \sb 2}
+\ExplSyntaxOff
+
+
+\begin{document}
+\section*{Tablas de Estados}
+\subsection*{Tabla de Estados Descriptiva}
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{c|ccc|c}
+	Estado & \multicolumn{3}{c|}{Próximo Estado} & \multirow{2}{*}{Salida}\\
+	\cline{2-4}
+	Actual & Vacío & Medio & Lleno \\
+	\hline
+	$Ninguna_{B1}$ 	& $Ambas$ & $Bomba 2$ & $Ninguna_{B1}$ & $Ninguna$ \\
+	$Ninguna_{B2}$ 	& $Ambas$ & $Bomba 1$ & $Ninguna_{B2}$ & $Ninguna$ \\
+	$Bomba 1$ 		& $Ambas$ & $Bomba 1$ & $Ninguna_{B1}$ & $b1$ \\
+	$Bomba 2$ 		& $Ambas$ & $Bomba 2$ & $Ninguna_{B2}$ & $b2$ \\
+	$Ambas$ 		& $Ambas$ & $Bomba 2$ & $Ninguna_{B1}$ & $b1 y b2$ \\
+	\end{tabular}
+\end{table}
+
+\subsection*{Tabla de Estados Posta}
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{c|c|c|c|c}
+	Estado Actual & \multicolumn{3}{c|}{Próximo Estado$(Y_2Y_1Y_0)$} & Salida\\
+	\cline{2-4}
+	$(y_2y_1y_0)$ & $w_1w_0=00$ & $w_1w_0=01$ & $w_1w_0=11$ & $(b_1b_2)$\\
+	\hline
+	000 & 100 & 011 & 000 & 00 \\
+	001 & 100 & 010 & 001 & 00 \\
+	010 & 100 & 010 & 000 & 10 \\
+	011 & 100 & 011 & 001 & 01 \\
+	100 & 100 & 011 & 000 & 11 \\
+	\end{tabular}
+\end{table}
+
+\section*{Tablas de Verdad Estados}
+
+\begin{multicols}{2}
+
+\begin{tabular}{c|c|c|c}
+$y_2y_1y_0w_1w_0$ & $Y_2$ & $Y_1$ & $Y_0$ \\ 
+\hline 
+00000 & 1 & 0 & 0 \\ 
+\hline 
+00001 & 0 & 1 & 1 \\ 
+\hline 
+00010 & x & x & x \\ 
+\hline 
+00011 & 0 & 0 & 0 \\ 
+\hline 
+00100 & 1 & 0 & 0 \\ 
+\hline 
+00101 & 0 & 1 & 0 \\ 
+\hline 
+00110 & x & x & x \\ 
+\hline 
+00111 & 0 & 0 & 1 \\ 
+\hline 
+01000 & 1 & 0 & 0 \\ 
+\hline 
+01001 & 0 & 1 & 0 \\ 
+\hline 
+01010 & x & x & x \\ 
+\hline 
+01011 & 0 & 0 & 0 \\ 
+\hline 
+01100 & 1 & 0 & 0 \\ 
+\hline 
+01101 & 0 & 1 & 1 \\ 
+\hline 
+01110 & x & x & x \\ 
+\hline 
+01111 & 0 & 0 & 1 \\ 
+\hline 
+10000 & 1 & 0 & 0 \\ 
+\hline 
+10001 & 0 & 1 & 1 \\ 
+\hline 
+10010 & x & x & x \\ 
+\hline 
+10011 & 0 & 0 & 0 \\ 
+\hline 
+10100 & x & x & x \\ 
+\hline 
+10101 & x & x & x \\ 
+\hline 
+10110 & x & x & x \\ 
+\hline 
+10111 & x & x & x \\ 
+\hline 
+11000 & x & x & x \\ 
+\hline 
+11001 & x & x & x \\ 
+\hline 
+11010 & x & x & x \\ 
+\hline 
+11011 & x & x & x \\ 
+\hline 
+11100 & x & x & x \\ 
+\hline 
+11101 & x & x & x \\ 
+\hline 
+11110 & x & x & x \\ 
+\hline 
+11111 & x & x & x \\ 
+\end{tabular} 
+
+\[
+Y_2 = \overline{w_0}
+\]
+
+\[
+Y_2 = \overline{w_0}
+\]
+\end{multicols}
+\end{document}
