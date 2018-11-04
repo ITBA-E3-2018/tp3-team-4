@@ -1,0 +1,7 @@
+Added Component: Designator=CD5(CAP200)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=VCC Pin=CD5-1
+Added Pin To Net: NetName=GND Pin=CD5-2
+Added Member To Class: ClassName=Esquematico Member=Component CD5 CAP
+Added Member To Class: ClassName=Esquematico Member=Component INPUT CON2
+Added Room: Name=Esquematico

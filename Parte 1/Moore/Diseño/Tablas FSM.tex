@@ -28,11 +28,9 @@
 	\cline{2-4}
 	Actual & Vacío & Medio & Lleno \\
 	\hline
-	$Ninguna_{B1}$ 	& $Ambas$ & $Bomba 2$ & $Ninguna_{B1}$ & $Ninguna$ \\
-	$Ninguna_{B2}$ 	& $Ambas$ & $Bomba 1$ & $Ninguna_{B2}$ & $Ninguna$ \\
-	$Bomba 1$ 		& $Ambas$ & $Bomba 1$ & $Ninguna_{B1}$ & $b1$ \\
-	$Bomba 2$ 		& $Ambas$ & $Bomba 2$ & $Ninguna_{B2}$ & $b2$ \\
-	$Ambas$ 		& $Ambas$ & $Bomba 2$ & $Ninguna_{B1}$ & $b1 y b2$ \\
+	Ninguna 	& Ambas & Una Sola & Ninguna & Ninguna \\
+	Una Sola 	& Ambas & Una Sola & Ninguna & b1 o b2 (Toggleado) \\
+	Ambas 		& Ambas & Una Sola & Ninguna & b1 y b2 \\
 	\end{tabular}
 \end{table}
 
@@ -41,15 +39,13 @@
 \begin{table}[ht]
 	\centering
 	\begin{tabular}{c|c|c|c|c}
-	Estado Actual & \multicolumn{3}{c|}{Próximo Estado$(Y_2Y_1Y_0)$} & Salida\\
+	Estado Actual & \multicolumn{3}{c|}{Próximo Estado$(Y_1Y_0)$} & Salida\\
 	\cline{2-4}
-	$(y_2y_1y_0)$ & $w_1w_0=00$ & $w_1w_0=01$ & $w_1w_0=11$ & $(b_1b_2)$\\
+	$(y_1y_0)$ & $SI=00$ & $SI=01$ & $SI=11$ & $(b_1b_2)$\\
 	\hline
-	000 & 100 & 011 & 000 & 00 \\
-	001 & 100 & 010 & 001 & 00 \\
-	010 & 100 & 010 & 000 & 10 \\
-	011 & 100 & 011 & 001 & 01 \\
-	100 & 100 & 011 & 000 & 11 \\
+	00 & 11 & 01 & 00 & 00 \\
+	01 & 11 & 01 & 00 & 01 o 10 (Alternado) \\
+	11 & 11 & 01 & 00 & 11 \\
 	\end{tabular}
 \end{table}
 
@@ -57,80 +53,48 @@
 
 \begin{multicols}{2}
 
-\begin{tabular}{c|c|c|c}
-$y_2y_1y_0w_1w_0$ & $Y_2$ & $Y_1$ & $Y_0$ \\ 
+\begin{tabular}{c|c|c}
+$y_2y_1y_0w_1w_0$ & $Y_1$ & $Y_0$  \\ 
 \hline 
-00000 & 1 & 0 & 0 \\ 
+0000 & 1 & 1  \\ 
 \hline 
-00001 & 0 & 1 & 1 \\ 
+0001 & 0 & 1  \\ 
 \hline 
-00010 & x & x & x \\ 
+0010 & x & x  \\ 
 \hline 
-00011 & 0 & 0 & 0 \\ 
+0011 & 0 & 0  \\ 
 \hline 
-00100 & 1 & 0 & 0 \\ 
+0100 & 1 & 1  \\ 
 \hline 
-00101 & 0 & 1 & 0 \\ 
+0101 & 0 & 1  \\ 
 \hline 
-00110 & x & x & x \\ 
+0110 & x & x  \\ 
 \hline 
-00111 & 0 & 0 & 1 \\ 
+0111 & 0 & 0  \\ 
 \hline 
-01000 & 1 & 0 & 0 \\ 
+1000 & x & x  \\ 
 \hline 
-01001 & 0 & 1 & 0 \\ 
+1001 & x & x  \\ 
 \hline 
-01010 & x & x & x \\ 
+1010 & x & x  \\ 
 \hline 
-01011 & 0 & 0 & 0 \\ 
+1011 & x & x  \\ 
 \hline 
-01100 & 1 & 0 & 0 \\ 
+1100 & 1 & 1  \\ 
 \hline 
-01101 & 0 & 1 & 1 \\ 
+1101 & 0 & 1  \\ 
 \hline 
-01110 & x & x & x \\ 
+1110 & x & x  \\ 
 \hline 
-01111 & 0 & 0 & 1 \\ 
-\hline 
-10000 & 1 & 0 & 0 \\ 
-\hline 
-10001 & 0 & 1 & 1 \\ 
-\hline 
-10010 & x & x & x \\ 
-\hline 
-10011 & 0 & 0 & 0 \\ 
-\hline 
-10100 & x & x & x \\ 
-\hline 
-10101 & x & x & x \\ 
-\hline 
-10110 & x & x & x \\ 
-\hline 
-10111 & x & x & x \\ 
-\hline 
-11000 & x & x & x \\ 
-\hline 
-11001 & x & x & x \\ 
-\hline 
-11010 & x & x & x \\ 
-\hline 
-11011 & x & x & x \\ 
-\hline 
-11100 & x & x & x \\ 
-\hline 
-11101 & x & x & x \\ 
-\hline 
-11110 & x & x & x \\ 
-\hline 
-11111 & x & x & x \\ 
+1111 & 0 & 0  \\ 
 \end{tabular} 
 
 \[
-Y_2 = \overline{w_0}
+Y_1 = \overline{w_1}\overline{w_0}
 \]
 
 \[
-Y_2 = \overline{w_0}
+Y_0 = \overline{w_1}
 \]
 \end{multicols}
 \end{document}

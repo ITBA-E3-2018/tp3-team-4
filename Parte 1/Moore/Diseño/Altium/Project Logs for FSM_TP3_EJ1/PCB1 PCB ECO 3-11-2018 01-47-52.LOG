@@ -1,0 +1,21 @@
+Added Component: Designator=CD1(CAP200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=CD2(CAP200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=CD3(CAP200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=CD4(CAP200)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=VCC Pin=CD1-1
+Added Pin To Net: NetName=GND Pin=CD1-2
+Added Pin To Net: NetName=VCC Pin=CD2-1
+Added Pin To Net: NetName=GND Pin=CD2-2
+Added Pin To Net: NetName=VCC Pin=CD3-1
+Added Pin To Net: NetName=GND Pin=CD3-2
+Added Pin To Net: NetName=VCC Pin=CD4-1
+Added Pin To Net: NetName=GND Pin=CD4-2
+Added Member To Class: ClassName=Esquematico Member=Component CD1 CAP
+Added Member To Class: ClassName=Esquematico Member=Component CD2 CAP
+Added Member To Class: ClassName=Esquematico Member=Component CD3 CAP
+Added Member To Class: ClassName=Esquematico Member=Component CD4 CAP
+Added Room: Name=Esquematico

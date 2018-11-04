@@ -1,0 +1,261 @@
+$date
+	Sun Nov  4 01:27:46 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100us
+$end
+$scope module tb $end
+$var wire 1 ! Y_0 $end
+$var wire 1 " Y_1 $end
+$var wire 1 # net0 $end
+$var wire 1 $ y1 $end
+$var wire 1 % y0 $end
+$var wire 1 & una_sola $end
+$var wire 4 ' state [3:0] $end
+$var wire 1 ( ninguna $end
+$var wire 16 ) dec_out [15:0] $end
+$var wire 1 * b2 $end
+$var wire 1 + b1 $end
+$var wire 1 , ambas $end
+$var wire 1 - Q $end
+$var wire 1 . Clk $end
+$var reg 513 / dumpfile_path [512:0] $end
+$var reg 1 0 enable $end
+$var reg 1 1 enable_T $end
+$var reg 1 2 reset $end
+$var reg 1 3 w0 $end
+$var reg 1 4 w1 $end
+$scope module mux_b1 $end
+$var wire 1 , din_0 $end
+$var wire 1 & sel $end
+$var wire 1 + mux_out $end
+$var wire 1 - din_1 $end
+$upscope $end
+$scope module mux_b2 $end
+$var wire 1 , din_0 $end
+$var wire 1 5 din_1 $end
+$var wire 1 & sel $end
+$var wire 1 * mux_out $end
+$upscope $end
+$scope module my_decoder $end
+$var wire 4 6 binary_in [3:0] $end
+$var wire 1 0 enable $end
+$var wire 16 7 decoder_out [15:0] $end
+$upscope $end
+$scope module my_ttf $end
+$var wire 1 & clk $end
+$var wire 1 1 data $end
+$var wire 1 2 reset $end
+$var reg 1 - q $end
+$upscope $end
+$scope module myclock $end
+$var reg 1 . clk $end
+$scope begin CLOCK_DRIVER $end
+$upscope $end
+$upscope $end
+$scope module state_y0 $end
+$var wire 1 . clk $end
+$var wire 1 ! data $end
+$var wire 1 2 reset $end
+$var reg 1 % q $end
+$upscope $end
+$scope module state_y1 $end
+$var wire 1 . clk $end
+$var wire 1 " data $end
+$var wire 1 2 reset $end
+$var reg 1 $ q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 7
+b0 6
+15
+04
+03
+02
+11
+10
+b1101111011101010111010001110000011101010111010000101110011101100110001101100100 /
+0.
+0-
+0,
+0+
+0*
+b1 )
+1(
+b0 '
+0&
+0%
+0$
+1#
+1"
+1!
+$end
+#1
+12
+#3
+1+
+1*
+1,
+0(
+b1000 )
+b1000 7
+1%
+b11 '
+b11 6
+1$
+1.
+#6
+0.
+#9
+1.
+#12
+0.
+#15
+1.
+#18
+0.
+#21
+0*
+05
+1-
+1+
+0,
+1&
+b10 )
+b10 7
+b1 '
+b1 6
+0$
+1.
+0"
+0#
+13
+#24
+0.
+#27
+1.
+#30
+0.
+#33
+1.
+#36
+0.
+#39
+1.
+#41
+0!
+14
+#42
+0.
+#45
+0+
+0&
+1(
+b1 )
+b1 7
+b0 '
+b0 6
+0%
+1.
+#48
+0.
+#51
+1.
+#54
+0.
+#57
+1.
+#60
+0.
+#61
+1"
+1#
+1!
+03
+04
+#63
+1+
+1*
+1,
+0(
+b1000 )
+b1000 7
+1%
+b11 '
+b11 6
+1$
+1.
+#66
+0.
+#69
+1.
+#72
+0.
+#75
+1.
+#78
+0.
+#81
+0+
+15
+0-
+1*
+0,
+1&
+b10 )
+b10 7
+b1 '
+b1 6
+0$
+1.
+0"
+0#
+13
+#84
+0.
+#87
+1.
+#90
+0.
+#93
+1.
+#96
+0.
+#99
+1.
+#101
+1"
+1#
+03
+#102
+0.
+#105
+1+
+1,
+0&
+b1000 )
+b1000 7
+b11 '
+b11 6
+1$
+1.
+#108
+0.
+#111
+1.
+#114
+0.
+#117
+1.
+#120
+0.
+#121
+0"
+0#
+13

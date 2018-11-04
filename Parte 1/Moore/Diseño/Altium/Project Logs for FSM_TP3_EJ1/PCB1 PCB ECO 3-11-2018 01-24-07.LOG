@@ -1,0 +1,200 @@
+Added Component: Designator=74HC02(N014)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www-s.ti.com/sc/ds/sn74ahc02.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Packaging Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://focus.ti.com/lit/ml/mpdi002c/mpdi002c.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Apr-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "04-Mar-2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Stylized 3D Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DIP; 14 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "N014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Oct-1995"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=74HC74(N014)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www-s.ti.com/sc/ds/sn74ahct74.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Oct-1998"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "04-Mar-2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Stylized 3D Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DIP; 14 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "N014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Oct-1995"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=74HC107(N014D)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-1989"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "04-Mar-2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Stylized 3D Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DIP; 14 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "N014D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Oct-1995"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=74HC139(N016)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-001-BB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www-s.ti.com/sc/ds/sn74hc139.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "May-1997"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "04-Mar-2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Stylized 3D Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DIP; 16 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "N016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Oct-1995"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=74HC157(J016)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www-s.ti.com/sc/ds/sn74hc157.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "May-1997"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "04-Mar-2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Stylized 3D Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DIP; 16 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "J016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Jun-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C_Clk(CAP200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=CD(CAP200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C(CAP200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=DB1(LED3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=DB2(LED3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=INPUT(SIP2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LM555(DIP8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=POWER(MOLEX2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(RES400)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R2(RES400)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RB1(RES400)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RB2(RES400)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Ambos Pin=74HC139-7
+Added Pin To Net: NetName=Ambos Pin=74HC157-2
+Added Pin To Net: NetName=Ambos Pin=74HC157-5
+Added Net: Name=Ambos
+Added Pin To Net: NetName=b1 Pin=74HC157-4
+Added Pin To Net: NetName=b1 Pin=RB1-1
+Added Net: Name=b1
+Added Pin To Net: NetName=b2 Pin=74HC157-7
+Added Pin To Net: NetName=b2 Pin=RB2-1
+Added Net: Name=b2
+Added Pin To Net: NetName=Clk Pin=74HC74-3
+Added Pin To Net: NetName=Clk Pin=74HC74-11
+Added Pin To Net: NetName=Clk Pin=LM555-3
+Added Net: Name=Clk
+Added Pin To Net: NetName=GND Pin=74HC02-7
+Added Pin To Net: NetName=GND Pin=74HC74-7
+Added Pin To Net: NetName=GND Pin=74HC107-7
+Added Pin To Net: NetName=GND Pin=74HC139-1
+Added Pin To Net: NetName=GND Pin=74HC139-8
+Added Pin To Net: NetName=GND Pin=74HC157-8
+Added Pin To Net: NetName=GND Pin=74HC157-9
+Added Pin To Net: NetName=GND Pin=74HC157-10
+Added Pin To Net: NetName=GND Pin=74HC157-11
+Added Pin To Net: NetName=GND Pin=74HC157-12
+Added Pin To Net: NetName=GND Pin=74HC157-13
+Added Pin To Net: NetName=GND Pin=74HC157-14
+Added Pin To Net: NetName=GND Pin=74HC157-15
+Added Pin To Net: NetName=GND Pin=C-2
+Added Pin To Net: NetName=GND Pin=C_Clk-2
+Added Pin To Net: NetName=GND Pin=CD-2
+Added Pin To Net: NetName=GND Pin=DB1-2
+Added Pin To Net: NetName=GND Pin=DB2-2
+Added Pin To Net: NetName=GND Pin=LM555-1
+Added Pin To Net: NetName=GND Pin=POWER-1
+Added Net: Name=GND
+Added Pin To Net: NetName=Net74HC02_1 Pin=74HC02-1
+Added Pin To Net: NetName=Net74HC02_1 Pin=74HC74-2
+Added Net: Name=Net74HC02_1
+Added Pin To Net: NetName=Net74HC02_4 Pin=74HC02-4
+Added Pin To Net: NetName=Net74HC02_4 Pin=74HC74-12
+Added Net: Name=Net74HC02_4
+Added Pin To Net: NetName=Net74HC74_5 Pin=74HC74-5
+Added Pin To Net: NetName=Net74HC74_5 Pin=74HC139-2
+Added Net: Name=Net74HC74_5
+Added Pin To Net: NetName=Net74HC74_9 Pin=74HC74-9
+Added Pin To Net: NetName=Net74HC74_9 Pin=74HC139-3
+Added Net: Name=Net74HC74_9
+Added Pin To Net: NetName=NetC_1 Pin=C-1
+Added Pin To Net: NetName=NetC_1 Pin=LM555-5
+Added Net: Name=NetC_1
+Added Pin To Net: NetName=NetC_Clk_1 Pin=C_Clk-1
+Added Pin To Net: NetName=NetC_Clk_1 Pin=LM555-2
+Added Pin To Net: NetName=NetC_Clk_1 Pin=LM555-6
+Added Pin To Net: NetName=NetC_Clk_1 Pin=R2-1
+Added Net: Name=NetC_Clk_1
+Added Pin To Net: NetName=NetDB1_1 Pin=DB1-1
+Added Pin To Net: NetName=NetDB1_1 Pin=RB1-2
+Added Net: Name=NetDB1_1
+Added Pin To Net: NetName=NetDB2_1 Pin=DB2-1
+Added Pin To Net: NetName=NetDB2_1 Pin=RB2-2
+Added Net: Name=NetDB2_1
+Added Pin To Net: NetName=NetLM555_7 Pin=LM555-7
+Added Pin To Net: NetName=NetLM555_7 Pin=R1-2
+Added Pin To Net: NetName=NetLM555_7 Pin=R2-2
+Added Net: Name=NetLM555_7
+Added Pin To Net: NetName=Ninguna Pin=74HC139-4
+Added Net: Name=Ninguna
+Added Pin To Net: NetName=nQT Pin=74HC107-2
+Added Pin To Net: NetName=nQT Pin=74HC157-6
+Added Net: Name=nQT
+Added Pin To Net: NetName=QT Pin=74HC107-3
+Added Pin To Net: NetName=QT Pin=74HC157-3
+Added Net: Name=QT
+Added Pin To Net: NetName=Uno_solo Pin=74HC107-12
+Added Pin To Net: NetName=Uno_solo Pin=74HC139-5
+Added Pin To Net: NetName=Uno_solo Pin=74HC157-1
+Added Net: Name=Uno_solo
+Added Pin To Net: NetName=VCC Pin=74HC02-14
+Added Pin To Net: NetName=VCC Pin=74HC74-1
+Added Pin To Net: NetName=VCC Pin=74HC74-4
+Added Pin To Net: NetName=VCC Pin=74HC74-10
+Added Pin To Net: NetName=VCC Pin=74HC74-13
+Added Pin To Net: NetName=VCC Pin=74HC74-14
+Added Pin To Net: NetName=VCC Pin=74HC107-1
+Added Pin To Net: NetName=VCC Pin=74HC107-4
+Added Pin To Net: NetName=VCC Pin=74HC107-13
+Added Pin To Net: NetName=VCC Pin=74HC107-14
+Added Pin To Net: NetName=VCC Pin=74HC139-16
+Added Pin To Net: NetName=VCC Pin=74HC157-16
+Added Pin To Net: NetName=VCC Pin=CD-1
+Added Pin To Net: NetName=VCC Pin=LM555-4
+Added Pin To Net: NetName=VCC Pin=LM555-8
+Added Pin To Net: NetName=VCC Pin=POWER-2
+Added Pin To Net: NetName=VCC Pin=R1-1
+Added Net: Name=VCC
+Added Pin To Net: NetName=w0 Pin=74HC02-6
+Added Pin To Net: NetName=w0 Pin=INPUT-2
+Added Net: Name=w0
+Added Pin To Net: NetName=w1 Pin=74HC02-2
+Added Pin To Net: NetName=w1 Pin=74HC02-3
+Added Pin To Net: NetName=w1 Pin=74HC02-5
+Added Pin To Net: NetName=w1 Pin=INPUT-1
+Added Net: Name=w1
+Added Class: Name=Esquematico
+Added Room: Name=Esquematico

@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.95 (w)1999-2018 BSI
+[*] Fri Nov 02 21:24:55 2018
+[*]
+[dumpfile] "C:\Users\lisan\Documents\GitHub Repositories\tp3-team-4\Parte 1\Moore\Diseño\Verilog\output.vcd"
+[dumpfile_mtime] "Fri Nov 02 21:19:04 2018"
+[dumpfile_size] 500
+[savefile] "C:\Users\lisan\Documents\GitHub Repositories\tp3-team-4\Parte 1\Moore\Diseño\test_intercalado.gtkw"
+[timestart] 0
+[size] 1448 600
+[pos] -1 -1
+*-7.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+tb.Q
+tb.ambas
+tb.ambas
+tb.una_sola
+tb.b1
+@29
+tb.una_sola
+[pattern_trace] 1
+[pattern_trace] 0

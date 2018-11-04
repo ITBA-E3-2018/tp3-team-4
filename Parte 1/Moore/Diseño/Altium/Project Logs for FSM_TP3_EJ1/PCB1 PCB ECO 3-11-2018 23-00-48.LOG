@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=Ambos Pin=74HC157-2
+Removed Pin From Net: NetName=QT Pin=74HC157-3
+Removed Pin From Net: NetName=b1 Pin=74HC157-4
+Removed Pin From Net: NetName=Ambos Pin=74HC157-5
+Removed Pin From Net: NetName=nQT Pin=74HC157-6
+Removed Pin From Net: NetName=b2 Pin=74HC157-7
+Added Pin To Net: NetName=b1 Pin=74HC02-10
+Added Pin To Net: NetName=b2 Pin=74HC02-13
+Added Pin To Net: NetName=QT Pin=74HC157-2
+Added Pin To Net: NetName=Ambos Pin=74HC157-3
+Added Pin To Net: NetName=nQT Pin=74HC157-5
+Added Pin To Net: NetName=Ambos Pin=74HC157-6
+Added Pin To Net: NetName=Net74HC02_8 Pin=74HC02-8
+Added Pin To Net: NetName=Net74HC02_8 Pin=74HC02-9
+Added Pin To Net: NetName=Net74HC02_8 Pin=74HC157-4
+Added Net: Name=Net74HC02_8
+Added Pin To Net: NetName=Net74HC02_11 Pin=74HC02-11
+Added Pin To Net: NetName=Net74HC02_11 Pin=74HC02-12
+Added Pin To Net: NetName=Net74HC02_11 Pin=74HC157-7
+Added Net: Name=Net74HC02_11
+Added Room: Name=Esquematico
