@@ -1,0 +1,99 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{expl3}
+
+\ExplSyntaxOn
+\cs_new:Npn \displayasdecimal#1 {(#1) \sb {10}}
+\cs_new:Npn \displayasoctal #1 {(\int_to_oct:n{#1}) \sb 8}
+\cs_new:Npn \displayasbinary #1 {(\int_to_bin:n{#1}) \sb 2}
+\ExplSyntaxOff
+
+
+\begin{document}
+\section*{Tablas de Estados}
+\subsection*{Tabla de Estados Descriptiva}
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{c|ccc|ccc}
+	Estado & \multicolumn{3}{c|}{Próximo Estado} & \multicolumn{3}{c|}{Salida($b_1b_2$)}\\
+	\cline{2-7}
+	Actual 				& Vacío 	& Medio 			& Lleno 	& Vacío & Medio 	& Lleno \\
+	\hline
+	Juntas 				& Juntas 	& Complementarias 	& Juntas 	& 11 	& 10 o 01 	& 00\\
+	Complementarias 	& Juntas 	& Complementarias 	& Juntas 	& 11  	& 10 o 01	& 00\\
+	\end{tabular}
+\end{table}
+
+\subsection*{Tabla de Estados Posta}
+
+
+\begin{tabular}{|c|c|}
+\hline 
+y & Estado \\ 
+\hline 
+0 & Complementarias \\ 
+\hline 
+1 & Juntas \\ 
+\hline 
+\end{tabular} 
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{c|c|c|c|c|c|c|c}
+	Estado Actual & \multicolumn{3}{c|}{Próximo Estado$(Y)$} & \multicolumn{3}{c|}{Salida($b_1b_2$)}\\
+	\cline{2-7}
+	$(y)$ & $SI=00$ & $SI=01$ & $SI=11$ & $SI=00$ & $SI=01$ & $SI=11$ \\
+	\hline
+	0 & 11 & 01 & 00 & 11 & 10 o 01 & 00 \\
+	0 & 11 & 01 & 00 & 11 & 10 o 01 & 00\\
+	\end{tabular}
+\end{table}
+
+\section*{Tablas de Verdad Estados}
+
+\begin{multicols}{2}
+
+\begin{tabular}{c|c|c}
+$ySI$ & $Y$ & $b_1b_2$ \\ 
+\hline 
+000 & 1 & 11  \\ 
+\hline 
+001 & 0 & xx  \\ 
+\hline 
+010 & x & xx  \\ 
+\hline 
+011 & 1 & 00  \\ 
+\hline 
+100 & 1 & 11  \\ 
+\hline 
+101 & 0 & xx  \\ 
+\hline 
+110 & x & xx  \\ 
+\hline 
+111 & 1 & 00  \\ 
+\end{tabular} 
+
+\[
+Y = S + \overline{I}
+\]
+
+\[
+b_1 = \overline{S}
+\]
+
+\[
+b_2 = \overline{S}
+\]
+
+
+\end{multicols}
+\end{document}

@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : C:\Users\lisan\Documents\GitHub Repositories\tp3-team-4\Parte 1\Moore\Altium\PCB1.PcbDoc
+Date         : 5/11/2018
+Time         : 13:47:42
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 100,00%
+    Connections, 106
+    Connections routed, 106
+    Connections remaining, 0
+count : 4

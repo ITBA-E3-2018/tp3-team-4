@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=VCC Pin=74HC107-1
+Removed Pin From Net: NetName=VCC Pin=74HC107-4
+Removed Pin From Net: NetName=y Pin=74HC107-12
+Removed Pin From Net: NetName=VCC Pin=74HC107-13
+Added Pin To Net: NetName=VCC Pin=74HC107-8
+Added Pin To Net: NetName=y Pin=74HC107-9
+Added Pin To Net: NetName=VCC Pin=74HC107-10
+Added Pin To Net: NetName=VCC Pin=74HC107-11
+Added Pin To Net: NetName=Net74HC107_5 Pin=74HC107-5
+Added Pin To Net: NetName=Net74HC107_5 Pin=74HC157-2
+Added Net: Name=Net74HC107_5
+Added Pin To Net: NetName=Net74HC107_6 Pin=74HC107-6
+Added Pin To Net: NetName=Net74HC107_6 Pin=74HC157-5
+Added Net: Name=Net74HC107_6
+Added Room: Name=Esquematico

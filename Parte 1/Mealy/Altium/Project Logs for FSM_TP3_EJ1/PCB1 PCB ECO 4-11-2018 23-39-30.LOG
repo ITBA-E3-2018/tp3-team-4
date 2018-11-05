@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VCC Pin=74HC74-1
+Removed Pin From Net: NetName=Net74HC00_6 Pin=74HC74-2
+Removed Pin From Net: NetName=Clk Pin=74HC74-3
+Removed Pin From Net: NetName=VCC Pin=74HC74-4
+Removed Pin From Net: NetName=y Pin=74HC74-5
+Added Pin To Net: NetName=y Pin=74HC74-9
+Added Pin To Net: NetName=VCC Pin=74HC74-10
+Added Pin To Net: NetName=Clk Pin=74HC74-11
+Added Pin To Net: NetName=Net74HC00_6 Pin=74HC74-12
+Added Pin To Net: NetName=VCC Pin=74HC74-13
+Added Room: Name=Esquematico

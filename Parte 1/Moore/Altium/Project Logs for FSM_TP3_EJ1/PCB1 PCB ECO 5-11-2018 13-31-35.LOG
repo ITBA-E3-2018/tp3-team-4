@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=VCC Pin=74HC74-1
+Removed Pin From Net: NetName=VCC Pin=74HC74-10
+Added Component: Designator=RESET(TACTSWITCH)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RPU(RES400)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=RESET-1
+Added Pin To Net: NetName=VCC Pin=RPU-2
+Added Pin To Net: NetName=Clear Pin=74HC74-1
+Added Pin To Net: NetName=Clear Pin=74HC74-10
+Added Pin To Net: NetName=Clear Pin=RESET-3
+Added Pin To Net: NetName=Clear Pin=RPU-1
+Added Net: Name=Clear
+Added Member To Class: ClassName=Esquematico Member=Component RESET TACT SWITCH
+Added Member To Class: ClassName=Esquematico Member=Component RPU RES
+Added Room: Name=Esquematico
