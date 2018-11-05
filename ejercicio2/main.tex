@@ -1,37 +1,177 @@
-\documentclass{standalone}
-%\documentclass[10pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
+%\documentclass{standalone}
 \usepackage{tikz}
 \usetikzlibrary{matrix,calc}
 %\usepackage[utf8]{inputenc}
 %\usepackage[spanish]{babel}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{circuitikz}
+\usepackage{tikz-timing}
+\usetikztiminglibrary[rising arrows]{clockarrows}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{listings}
+\usepackage[export]{adjustbox}
+\usepackage{graphicx,wrapfig,lipsum}
+\usepackage{booktabs}
+\usepackage[skip=0pt]{caption}
+\captionsetup[figure]{font=small,labelfont=small}
+
 
 \input{karnaugh_def}
-\input{KarnaughvuiteTP3}
+\input{KarnaugsparaTP3}
 
 \begin{document}
 
-	\begin{KarnaughvuiteTP3}
-	\minterms{2,4,7}
-	\maxterms{0,1,3,5,6}
-	%\indeterminats{2,5}
-	\implicant{2}{2}{green}
-	\implicant{4}{4}{red}
-	\implicant{7}{7}{blue}
-	\end{KarnaughvuiteTP3}
+
+
+\begin{figure}[H]
+\begin{center}
+\begin{tabular}{c|c|c|c|}
+\cline{2-4}
+\textbf{} & \textbf{W = 0} & \textbf{W = 1} & \textbf{Z} \\ \hline
+\multicolumn{1}{|c|}{\textbf{A$_{000}$}} & \textbf{A} & \textbf{B} & \textbf{0} \\ \hline
+\multicolumn{1}{|c|}{\textbf{B$_{001}$}} & \textbf{A} & \textbf{C} & \textbf{0} \\ \hline
+\multicolumn{1}{|c|}{\textbf{C$_{010}$}} & \textbf{D} & \textbf{A} & \textbf{0} \\ \hline
+\multicolumn{1}{|c|}{\textbf{D$_{011}$}} & \textbf{A} & \textbf{E} & \textbf{0} \\ \hline
+\multicolumn{1}{|c|}{\textbf{E$_{100}$}} & \textbf{A} & \textbf{C} & \textbf{1} \\ \hline
+\end{tabular}
+\caption{Transiciones - Máquina de Moore} 
+\label{2_fig1}
+\end{center}
+\end{figure}
 	
-	\begin{KarnaughvuiteTP3}
-	\minterms{2,5}
-	\maxterms{0,1,3,4,6,7}
-	%\indeterminats{2,5}
-	\implicant{3}{3}{green}
-	\implicant{5}{5}{red}
-	\end{KarnaughvuiteTP3}
+	\begin{figure}[H]
+		\begin{center}
+		\begin{KarnaughTP3}
+		\contingut{0,0,1,0,0,X,X,X,1,0,0,0,0,X,X,X}
+		\implicant{2}{6}{red}
+		\implicant{8}{8}{blue}
+		\end{KarnaughTP3}
+		\end{center}
+		\caption{$Q_{0_{t+1}}$ Máq. de Moore} 
+		\label{2_fig2}
+	\end{figure}
+
+	\begin{figure}[H]
+		\begin{center}
+		\begin{KarnaughTP3}
+		\contingut{0,0,1,0,0,X,X,X,0,1,0,0,1,X,X,X}
+		\implicant{2}{6}{orange}
+		\implicant{13}{9}{green}
+		\implicant{12}{14}{red}
+		\implicantcostats{12}{14}{blue}
+		\end{KarnaughTP3}
+		\end{center}
+		\caption{$Q_{1_{t+1}}$ Máq. de Moore} 
+		\label{2_fig3}
+	\end{figure}
+
+	\begin{figure}[H]
+		\begin{center}
+		\begin{KarnaughTP3}
+		\contingut{0,0,0,0,0,X,X,X,0,0,0,1,0,X,X,X}
+		\implicant{11}{11}{red}
+		\end{KarnaughTP3}
+		\end{center}
+		\caption{$Q_{2_{t+1}}$ Máq. de Moore} 
+		\label{2_fig4}
+	\end{figure}
 	
-	\begin{KarnaughvuiteTP3}
-	\minterms{7}
-	\maxterms{0,1,2,3,4,5,6}
-	%\indeterminats{2,5}
-	\implicant{7}{7}{green}
-	\end{KarnaughvuiteTP3}
+	\begin{figure}[H]
+		\begin{center}
+		\begin{KarnaughvuiteTP3}
+		\minterms{4}
+		\maxterms{0,1,2,3}
+		\indeterminats{5,6,7}
+		\implicant{4}{4}{orange}
+		\end{KarnaughvuiteTP3}
+		\end{center}
+		\caption{$Z$: Salida - Máq. de Moore} 
+		\label{2_fig5}
+	\end{figure}
+	
+\begin{figure}[H]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Estado\\ Actual\end{tabular}}} & \multicolumn{2}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Estado\\ Siguiente\end{tabular}}} & \multicolumn{2}{c|}{\textbf{Salida: Z}} \\ \cline{2-5} 
+ & \textbf{W = 0} & \textbf{W = 1} & \textbf{W = 0} & \textbf{W = 1} \\ \hline
+\textbf{A$_{000}$} & \textbf{A} & \textbf{B} & \textbf{0} & \textbf{0} \\ \hline
+\textbf{B$_{001}$} & \textbf{A} & \textbf{C} & \textbf{0} & \textbf{0} \\ \hline
+\textbf{C$_{010}$} & \textbf{D} & \textbf{A} & \textbf{0} & \textbf{0} \\ \hline
+\textbf{D$_{011}$} & \textbf{A} & \textbf{B} & \textbf{0} & \textbf{1} \\ \hline
+\end{tabular}
+\caption{Transiciones - Máquina de Mealy} 
+\label{2_fig6}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c|}{\multirow{2}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Estado\\ Actual\end{tabular}}}} & \multicolumn{4}{c|}{\textbf{Estado Siguiente}} & \multicolumn{2}{c|}{\multirow{2}{*}{\textbf{Salida: Z}}} \\ \cline{3-6}
+\multicolumn{2}{|c|}{} & \multicolumn{2}{c|}{\textbf{W = 0}} & \multicolumn{2}{c|}{\textbf{W = 1}} & \multicolumn{2}{c|}{} \\ \hline
+\textbf{Q1} & \textbf{Q0} & \textbf{Q1T+1} & \textbf{Q0T+1} & \textbf{Q1T+1} & \textbf{Q0T+1} & \textbf{W = 0} & \textbf{W = 1} \\ \hline
+\textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} \\ \hline
+\textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} \\ \hline
+\textbf{1} & \textbf{0} & \textbf{1} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} \\ \hline
+\textbf{1} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{1} \\ \hline
+\end{tabular}
+\caption{Máquina de Mealy} 
+\label{2_fig7}
+\end{center}
+\end{figure}
+
+	\begin{figure}[H]
+		\begin{center}
+		\begin{KarnaughvuiteTP3}
+		\minterms{2,4,7}
+		\maxterms{0,1,3,5,6}
+		%\indeterminats{2,5}
+		\implicant{2}{2}{green}
+		\implicant{4}{4}{red}
+		\implicant{7}{7}{blue}
+		\end{KarnaughvuiteTP3}
+		\end{center}
+		\caption{$Q_{0_{t+1}}$ Máq. de Mealy} 
+		\label{2_fig8}
+	\end{figure}
+
+	\begin{figure}[H]
+		\begin{center}
+		\begin{KarnaughvuiteTP3}	
+		\minterms{2,5}
+		\maxterms{0,1,3,4,6,7}
+		%\indeterminats{2,5}
+		\implicant{2}{2}{green}
+		\implicant{5}{5}{red}
+		\end{KarnaughvuiteTP3}
+		\end{center}
+		\caption{$Q_{1_{t+1}}$ Máq. de Mealy} 
+		\label{2_fig9}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\begin{KarnaughvuiteTP3}
+		\minterms{7}
+		\maxterms{0,1,2,3,4,5,6}
+		%\indeterminats{2,5}
+		\implicant{7}{7}{green}
+		\end{KarnaughvuiteTP3}
+		\end{center}
+		\caption{$Z$: Salida - Máq. de Mealy} 
+		\label{2_fig10}
+	\end{figure}
 
 \end{document}
