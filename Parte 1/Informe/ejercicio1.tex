@@ -62,7 +62,7 @@ A continuación se presenta el diagrama de estados y transiciones, a partir del 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{images/diagrama_estados.png}
+\includegraphics[scale=0.4]{images/diagrama_estados_moore.png}
 \caption{Diagrama de estados y transiciones} \label{1_figa}
 \end{figure}
 
@@ -161,11 +161,15 @@ Se observa que el 'próximo estado' no depende del estado actual, sino solamente
 \subsection*{Implementación}
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.42]{images/diagrama.png}
+\includegraphics[scale=0.42]{images/diagrama_moore.png}
 \caption{Diagrama Esquemático de la Máquina de Estados}
 \label{1_fig2}
 \end{figure}
 
 La Figura \ref{1_fig2} muestra el circuito implementado. Las salidas de los Flip-Flop's D almacenan el estado actual de la maquina de de estados, mientras que toda la lógica a la salida de estos Flip-Flop's controla las salidas de la máquina.  Se implementó un Flip-Flop JK en modo Toggle para alternar la activación de las bombas cuando solo una de ellas debe activarse. Como se observa, el clock de este Flip-Flop esta controlado por la señal $\overline{Uno Solo}$, la cual valdrá 0 cuando la máquina se encuentre en el estado 'Uno Solo' y valdrá 1 en caso contrario. Cada vez que se produzca una transición del estado 'Uno Solo' hacia otro estado, se invertirán las salidas del Flip-Flop JK. Las salidas $Q$ y $\overline{Q}$ de este Flip-Flop sirven a una de dos entradas de dos multiplexores distintos. La entrada restante esta alimentada por la señal $\overline{Ambas}$, la cual valdrá 0 cuando la máquina se encuentre en el estado 'Ambas'. La señal de selección de ambos multiplexores está controlada por la señal $\overline{Una Sola}$, presentada anteriormente. Así se logra que se alternen las bombas cuando solo una debe encenderse y que se enciendan o apaguen ambas juntas cuando corresponda. Lo que sucede es que la linea de selección de los multiplexores determinan si las bombas tienen el mismo estado o estados complementarios.
+
+\section*{Implementación Maquina de Mealy}
+\subsection*{Diagrama de Estados y Transiciones}
+Al igual que en el proceso de diseño de la máquina de estados de Moore, el primer paso fue determinar los estados 
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.10)  4 NOV 2018 04:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.10)  5 NOV 2018 14:26
 entering extended mode
 **./ejercicio1.tex
 (ejercicio1.tex
@@ -624,29 +624,31 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/diagrama_estados.png, id=1, 648.4225pt x 465.74pt>
-File: images/diagrama_estados.png Graphic file (type png)
+<images/diagrama_estados_moore.png, id=1, 648.4225pt x 465.74pt>
+File: images/diagrama_estados_moore.png Graphic file (type png)
 
-<use images/diagrama_estados.png>
-Package pdftex.def Info: images/diagrama_estados.png used on input line 65.
+<use images/diagrama_estados_moore.png>
+Package pdftex.def Info: images/diagrama_estados_moore.png used on input line 6
+5.
 (pdftex.def)             Requested size: 259.3644pt x 186.2927pt.
  [1
 
 {C:/Users/lisan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <./image
-s/diagrama_estados.png>]
-<images/diagrama.png, id=14, 1148.62459pt x 329.56459pt>
-File: images/diagrama.png Graphic file (type png)
+s/diagrama_estados_moore.png>]
+<images/diagrama_moore.png, id=14, 1129.55333pt x 338.26375pt>
+File: images/diagrama_moore.png Graphic file (type png)
 
-<use images/diagrama.png>
-Package pdftex.def Info: images/diagrama.png used on input line 164.
-(pdftex.def)             Requested size: 482.41904pt x 138.41618pt.
- [3 <./images/diagrama.png>] (ejercicio1.aux
+<use images/diagrama_moore.png>
+Package pdftex.def Info: images/diagrama_moore.png used on input line 164.
+(pdftex.def)             Requested size: 474.40916pt x 142.0698pt.
+ [3 <./images/diagrama_moore.png>]
+(ejercicio1.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
  4316 strings out of 493328
- 57218 string characters out of 3136537
+ 57278 string characters out of 3136537
  139261 words of memory out of 3000000
  7777 multiletter control sequences out of 15000+200000
  7463 words of font info for 29 fonts, out of 3000000 for 9000
@@ -657,7 +659,7 @@ Here is how much of TeX's memory you used:
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on ejercicio1.pdf (3 pages, 243581 bytes).
+Output written on ejercicio1.pdf (3 pages, 243542 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
