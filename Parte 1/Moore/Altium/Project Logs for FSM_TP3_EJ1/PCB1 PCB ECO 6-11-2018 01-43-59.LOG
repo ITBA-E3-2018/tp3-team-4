@@ -1,0 +1,46 @@
+Removed Pin From Net: NetName=w1 Pin=74HC02-2
+Removed Pin From Net: NetName=w1 Pin=74HC02-3
+Removed Pin From Net: NetName=w1 Pin=74HC02-5
+Removed Pin From Net: NetName=w0 Pin=74HC02-6
+Removed Pin From Net: NetName=GND Pin=74HC02-7
+Removed Pin From Net: NetName=b1 Pin=74HC02-10
+Removed Pin From Net: NetName=b2 Pin=74HC02-13
+Removed Pin From Net: NetName=VCC Pin=74HC02-14
+Removed Member From Class: ClassName=Esquematico Member=74HC02
+Added Component: Designator=74HC04(N014)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www-s.ti.com/sc/ds/sn74ahc04.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Packaging Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://focus.ti.com/lit/ml/mpdi002c/mpdi002c.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Jun-1998"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "04-Mar-2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Stylized 3D Model Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DIP; 14 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "N014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Oct-1995"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=w1 Pin=74HC04-1
+Added Pin To Net: NetName=w0 Pin=74HC04-3
+Added Pin To Net: NetName=b1 Pin=74HC04-6
+Added Pin To Net: NetName=GND Pin=74HC04-7
+Added Pin To Net: NetName=b2 Pin=74HC04-8
+Added Pin To Net: NetName=VCC Pin=74HC04-14
+Added Pin To Net: NetName=Net74HC04_2 Pin=74HC04-2
+Added Pin To Net: NetName=Net74HC04_2 Pin=74HC74-2
+Added Net: Name=Net74HC04_2
+Added Pin To Net: NetName=Net74HC04_4 Pin=74HC04-4
+Added Pin To Net: NetName=Net74HC04_4 Pin=74HC74-12
+Added Net: Name=Net74HC04_4
+Added Pin To Net: NetName=Net74HC04_5 Pin=74HC04-5
+Added Pin To Net: NetName=Net74HC04_5 Pin=74HC157-4
+Added Net: Name=Net74HC04_5
+Added Pin To Net: NetName=Net74HC04_9 Pin=74HC04-9
+Added Pin To Net: NetName=Net74HC04_9 Pin=74HC157-7
+Added Net: Name=Net74HC04_9
+Added Member To Class: ClassName=Esquematico Member=Component 74HC04 SN74AHC04N
+Added Member To Class: ClassName=Esquematico Member=Component 74HC74 SN74AHCT74N
+Added Room: Name=Esquematico

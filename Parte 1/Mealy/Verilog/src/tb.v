@@ -5,15 +5,15 @@
 
 module tb;
     reg S, I, reset, T;
-    wire net0, net1, net2, b1, b2, Clk;
+    wire net0, y, net2, b1, b2, Clk;
 
     clock_gen myclock(Clk);
 
     nand(net0,~S,I);
-    dff my_dff(net0, Clk, reset, net1);
-    tff my_tff(T, net1, reset, net2);
-    mux my_mux1(net2, ~S, net1, b1);
-    mux my_mux2(~net2, ~S, net1, b2);
+    dff my_dff(net0, Clk, reset, y);
+    tff my_tff(T, y, reset, net2);
+    mux my_mux1(net2, ~S, y, b1);
+    mux my_mux2(~net2, ~S, y, b2);
 
     initial begin
 

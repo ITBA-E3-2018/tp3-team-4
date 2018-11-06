@@ -5,10 +5,22 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{enumitem}
 \usepackage{float}
-\setlist[description]{leftmargin=\parindent,labelindent=\parindent}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usepackage{tikz-timing}
+\usetikztiminglibrary[rising arrows]{clockarrows}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usetikzlibrary{matrix,calc}
+\usepackage{listings}
+\usepackage{pdfpages}
+\usepackage{lscape}
+\usepackage{multicol}
+
+
+\input{karnaugh_def_tp3_ej1_moore}
 
 \begin{document}
 \part*{Ejercicio 1}
@@ -148,27 +160,90 @@ Se determinó que es estado $SI=10$ no es una combinación posible, ya que indic
 
 La simplificación mediante Mapas de Karnaugh arrojó los siguientes resultados:
 
+\begin{multicols}{2}
+
+
+\begin{center}
+\begin{Karnaugh}
+   \minterms{0,4,12}
+   \maxterms{1,3,5,7,13,15}
+   \indeterminats{2,6,8,9,10,11,14}
+   \implicantcostats{0}{10}{}
+\end{Karnaugh}
 \[
-Y_1 = \overline{S}.\overline{I} = \overline{I+S}
+Y_1 = \overline{I}
 \]
 
+\end{center}
+
+
+\columnbreak
+
+\begin{center}
+\begin{Karnaugh}
+   \minterms{0,1,4,5,12,13}
+   \maxterms{3,7,15}
+   \indeterminats{2,6,8,9,10,11,14}
+   \implicant{0}{9}{}
+\end{Karnaugh}
+\end{center}
+
 \[
-Y_0 = \overline{S} = \overline{S + S}
+Y_0 = \overline{S}
 \]
+\end{multicols}
 
-Se observa que el 'próximo estado' no depende del estado actual, sino solamente de las entradas. Se escriben como una negación de suma para luego implementar mediante una compuerta NOR.
 
 
+Se observa que el 'próximo estado' no depende del estado actual, sino solamente de las entradas.
 
 \subsection*{Implementación}
+
+La lógica que determina la transición de un estado a otro está dada por las expresiones de $Y_1$ e $Y_0$, desarrolladas en el apartado anterior. Se determinó adecuada la utilización de Flip-Flop's D para almacenar las variables $y_1$  e $y_0$ que determinan el estado de la máquina. La implementación del circuito se muestra en la Figura \ref{1_fig4}
+
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.42]{images/diagrama_moore.png}
-\caption{Diagrama Esquemático de la Máquina de Estados}
+\includegraphics[scale=0.3]{images/input_moore.png}
+\caption{Lógica de transición de estados}
+\label{1_fig4}
+\end{figure}
+
+Para implementar la lógica combinacional de las salidas en función de los estados actuales, se decidió utilizar un multiplexor, de forma que por un lado se implemente la lógica que controle las salidas cuando éstas son iguales (estados \emph{Ninguna} y \emph{Ambas}) y por otro la lógica cuando las salidas deben ser complementarias (estado \emph{Una Sola}).
+
+Para decodificar el estado de la máquina implementada, y poder controlar el mutiplexor mencionado y la lógica combinacional de las salidas, se utilizó un decodificador  2-a-4 74HC139. Este integrado implementa un decodificador de salidas active LOW, de esta forma, puedo decodificar el estado actual de la máquina para el posterior uso en la lógica de salida.
+
+Cuando la máquina se encuentra en el estado \emph{Una Sola}(\emph{Una Sola=1}), las salidas no solo son complementarias (una bomba está encendida y la otra apagada), sino que además cada vez que 'entro' y 'salgo' del estado en cuestión, las salidas se deben intercalar, como indica la consigna. Para lograr esto, se utilizó un Flip-Flop JK en modo Toggle (J=1, K=1). El Clock del Flip-Flop en cuestión es alimentado por la señal \emph{~(Una Sola)}, como indica la Figura \ref{1_fig3}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{images/jk_toggle_moore.png}
+\caption{Flip-Flop JK para alternar salidas}
+\label{1_fig3}
+\end{figure}
+
+Las salidas de este Flip-Flop alimentaron las entradas '0' de dos multiplexores como indica la Figura \ref{1_fig2}. De esta forma cuando la máquina se encuentre en el estado \emph{Una Sola}, las salidas $b_1$ y $b_2$ serán complementarias
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{images/multiplexion_moore.png}
+\caption{Multiplexación a la salida}
 \label{1_fig2}
 \end{figure}
 
-La Figura \ref{1_fig2} muestra el circuito implementado. Las salidas de los Flip-Flop's D almacenan el estado actual de la maquina de de estados, mientras que toda la lógica a la salida de estos Flip-Flop's controla las salidas de la máquina.  Se implementó un Flip-Flop JK en modo Toggle para alternar la activación de las bombas cuando solo una de ellas debe activarse. Como se observa, el clock de este Flip-Flop esta controlado por la señal $\overline{Uno Solo}$, la cual valdrá 0 cuando la máquina se encuentre en el estado 'Uno Solo' y valdrá 1 en caso contrario. Cada vez que se produzca una transición del estado 'Uno Solo' hacia otro estado, se invertirán las salidas del Flip-Flop JK. Las salidas $Q$ y $\overline{Q}$ de este Flip-Flop sirven a una de dos entradas de dos multiplexores distintos. La entrada restante esta alimentada por la señal $\overline{Ambas}$, la cual valdrá 0 cuando la máquina se encuentre en el estado 'Ambas'. La señal de selección de ambos multiplexores está controlada por la señal $\overline{Una Sola}$, presentada anteriormente. Así se logra que se alternen las bombas cuando solo una debe encenderse y que se enciendan o apaguen ambas juntas cuando corresponda. Lo que sucede es que la linea de selección de los multiplexores determinan si las bombas tienen el mismo estado o estados complementarios.
+Por otro lado, cuando la máquina de estados se encuentre en el estado \emph{Ambos}, se seleccionará la entrada '1' del multiplexor, y obtendré un 1 a la salida de los mutiplexores cuando \emph{Ambos=0} y un 0 cuando  \emph{Ambos=1}. Como las salidas $b_1$ y $b_2$ son las salidas de los multiplexores negadas, entonces obtendremos $b_1b_2=11$ cuando \emph{Ambas=1} y $b_1b_2=00$ cuando \emph{Ambas=0}
+
+\subsubsection*{Simulación Verilog}
+
+La Figura \ref{1_fig5} muestra el diagrama temporal generado por el código de Verilog presentado en el Anexo. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.45]{images/time_diagram_moore.png}
+\caption{Diagrama temporal de la simulación en Verilog}
+\label{1_fig5}
+\end{figure}
+
 
 \section*{Implementación Maquina de Mealy}
 \subsection*{Diagrama de Estados y Transiciones}
