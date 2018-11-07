@@ -1,0 +1,28 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\begin{document}
+Salidas Y de Moore en distintas formas:
+
+Normal:\\
+$Y_1 = W' . y_2 . y_1' + W . y_3' . y_2' . y_1'$\\
+$Y_2 = W . y_3 + W' . y_2 . y_1' + W . y_2' . y_1$\\
+$Y_3 = W . y_2 . y_1$\\
+$Z = y_3$\\
+
+Con Código Gray:\\
+$Y_1 = W . (y_3 + y_2')$\\
+$Y_2 = W . (y_2 . y_1' + y_2' . Y_1) + W' . y_2 . y_1$\\
+$Y_3 = W . y_3' . y_2 . y_1'$\\
+$Z = y_3$\\
+
+One Hote Encoding:\\
+$Y_1 = W . y_3 + W' . y_3'$\\
+$Y_2 = W . y_1$\\
+$Y_3 = W . y_2 + W . y_5$\\
+$Y_4 = W' . y_3$\\
+$Y_5 = W . y_4$\\
+$Z = Y_5$\\
+\end{document}
