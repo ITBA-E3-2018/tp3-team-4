@@ -18,6 +18,9 @@
 \usepackage{pdfpages}
 \usepackage{lscape}
 \usepackage{multicol}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\setlist[description]{leftmargin=\parindent,labelindent=\parindent}
 
 
 \input{karnaugh_def_tp3_ej1_moore}
@@ -233,20 +236,88 @@ Las salidas de este Flip-Flop alimentaron las entradas '0' de dos multiplexores 
 
 Por otro lado, cuando la máquina de estados se encuentre en el estado \emph{Ambos}, se seleccionará la entrada '1' del multiplexor, y obtendré un 1 a la salida de los mutiplexores cuando \emph{Ambos=0} y un 0 cuando  \emph{Ambos=1}. Como las salidas $b_1$ y $b_2$ son las salidas de los multiplexores negadas, entonces obtendremos $b_1b_2=11$ cuando \emph{Ambas=1} y $b_1b_2=00$ cuando \emph{Ambas=0}
 
-\subsubsection*{Simulación Verilog}
-
-La Figura \ref{1_fig5} muestra el diagrama temporal generado por el código de Verilog presentado en el Anexo. 
+El esquemático completo del circuito implementado en Altium Designer, a partir del cual se diseñó el circuito impreso se muestra en la Figura \ref{1_fig_esqm}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{images/time_diagram_moore.png}
-\caption{Diagrama temporal de la simulación en Verilog}
-\label{1_fig5}
+\includegraphics[scale=0.6]{images/Esquematico_Moore.pdf}
+\caption{Esquemático del circuito implementado. Máquina de Moore}
+\label{1_fig_esqm}
 \end{figure}
-
 
 \section*{Implementación Maquina de Mealy}
 \subsection*{Diagrama de Estados y Transiciones}
-Al igual que en el proceso de diseño de la máquina de estados de Moore, el primer paso fue determinar los estados 
+Al igual que en el proceso de diseño de la máquina de estados de Moore, el primer paso fue determinar los estados de la máquina de estados. Las entradas y salidas son las mismas que para la máquina de Moore.
+
+\subsubsection*{Estados:}
+
+\begin{description}
+\item[Juntas:] Estado que indica que ambas bombas están en el mismo estado, así sea encendidas o apagadas.
+\item[Complementarias:] Estado que indica que los estados de las bombas son complementarios, es decir, una encendida y la otra apagada.
+\end{description}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c|c}
+	y & Estado \\ 
+	\hline 
+	0 & Complementarias \\
+	1 & Juntas \\ 
+	\end{tabular} 
+\end{table}
+
+Al solamente necesitar de dos estados, puedo representarlos utilizando solamente una variable: $y$. El diagrama de estados de la máquina de Mealy se muestra en la Figura \ref{1_fig_estados_mealy}.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{images/diagrama_estados_mealy.png}
+\caption{Diagrama de estados y transiciones} \label{1_fig_estados_mealy}
+\end{figure}
+
+Con el diagrama de estados definido, se completo la tabla de asignación de estados, representada en el Cuadro \ref{1_tabla_mealy_estados}.
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{c|c|c|c|c|c|c|c}
+	Estado Actual & \multicolumn{3}{c|}{Próximo Estado$(Y)$} & \multicolumn{3}{c|}{Salida($b_1b_2$)}\\
+	\cline{2-7}
+	$(y)$ & $SI=00$ & $SI=01$ & $SI=11$ & $SI=00$ & $SI=01$ & $SI=11$ \\
+	\hline
+	0 & 11 & 01 & 00 & 11 & 10 o 01 & 00 \\
+	0 & 11 & 01 & 00 & 11 & 10 o 01 & 00\\
+	\end{tabular}
+	\caption{Tabla de asignación de estados} \label{1_tabla_mealy_estados}
+\end{table}
+
+Al igual que se procedió en el caso de la máquina de Moore, a partir del Cuadro \ref{1_fig_estados_mealy} se confeccionó el Cuadro \ref{1_tabla_verdad_mealy}, que implementa la tabla de verdad que determina el próximo estado ($Y$) y las salidas($b_1b_2$) en función del estado anterior ($y$) y las entradas ($SI$). 
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c|c|c}
+	$ySI$ & $Y$ & $b_1b_2$ \\ 
+	\hline 
+	000 & 1 & 11  \\ 
+	\hline 
+	001 & 0 & xx  \\ 
+	\hline 
+	010 & x & xx  \\ 
+	\hline 
+	011 & 1 & 00  \\ 
+	\hline 
+	100 & 1 & 11  \\ 
+	\hline 
+	101 & 0 & xx  \\ 
+	\hline 
+	110 & x & xx  \\ 
+	\hline 
+	111 & 1 & 00  \\ 
+	\end{tabular} 
+	\caption{Tabla de verdad cambio de estado} \label{1_tabla_verdad_mealy}
+\end{table}
+
+Cabe destacar que en la tabla de verdad del Cuadro \ref{1_tabla_verdad_mealy}, las salidas se definen como 'don't care'(x) para las configuraciones de entradas $ySI = x01$ y $ySI = x10$, esto es porque al igual que en la máquina de moore, se utilizará
+
+\input{anexo}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.10)  6 NOV 2018 02:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.10)  6 NOV 2018 17:00
 entering extended mode
 **./ejercicio1.tex
 (ejercicio1.tex
@@ -1098,40 +1098,48 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box73
 \mc@col@check@num=\count160
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen267
+\enit@toks=\toks47
+\enit@inbox=\box74
+\enitdp@description=\count161
+)
 (karnaugh_def_tp3_ej1_moore.tex) (ejercicio1.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
 \openout1 = `ejercicio1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count161
-\scratchdimen=\dimen267
-\scratchbox=\box74
-\nofMPsegments=\count162
-\nofMParguments=\count163
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count164
-\MPscratchDim=\dimen268
-\MPnumerator=\count165
-\makeMPintoPDFobject=\count166
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count162
+\scratchdimen=\dimen268
+\scratchbox=\box75
+\nofMPsegments=\count163
+\nofMParguments=\count164
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count165
+\MPscratchDim=\dimen269
+\MPnumerator=\count166
+\makeMPintoPDFobject=\count167
+\everyMPtoPDFconversion=\toks49
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1212,29 +1220,29 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
-\c@lstlisting=\count167
-\AtBeginShipoutBox=\box75
+\c@lstlisting=\count168
+\AtBeginShipoutBox=\box76
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 68.
+LaTeX Font Info:    Try loading font information for U+msa on input line 71.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 68.
+LaTeX Font Info:    Try loading font information for U+msb on input line 71.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/diagrama_estados_moore.png, id=4, 648.4225pt x 465.74pt>
+<images/diagrama_estados_moore.png, id=4, 669.83583pt x 489.49542pt>
 File: images/diagrama_estados_moore.png Graphic file (type png)
 
 <use images/diagrama_estados_moore.png>
-Package pdftex.def Info: images/diagrama_estados_moore.png used on input line 7
-7.
-(pdftex.def)             Requested size: 259.3644pt x 186.2927pt.
+Package pdftex.def Info: images/diagrama_estados_moore.png used on input line 8
+0.
+(pdftex.def)             Requested size: 267.92958pt x 195.7947pt.
  [1
 
 {C:/Users/lisan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <./image
@@ -1243,51 +1251,67 @@ s/diagrama_estados_moore.png>]
 File: images/input_moore.png Graphic file (type png)
 
 <use images/input_moore.png>
-Package pdftex.def Info: images/input_moore.png used on input line 206.
+Package pdftex.def Info: images/input_moore.png used on input line 209.
 (pdftex.def)             Requested size: 173.90102pt x 137.31406pt.
-
-<images/jk_toggle_moore.png, id=18, 584.1825pt x 398.23781pt>
+ [3]
+<images/jk_toggle_moore.png, id=21, 584.1825pt x 398.23781pt>
 File: images/jk_toggle_moore.png Graphic file (type png)
 
 <use images/jk_toggle_moore.png>
-Package pdftex.def Info: images/jk_toggle_moore.png used on input line 219.
+Package pdftex.def Info: images/jk_toggle_moore.png used on input line 222.
 (pdftex.def)             Requested size: 175.25609pt x 119.47226pt.
- [3 <./images/input_moore.png>]
-<images/multiplexion_moore.png, id=23, 721.19438pt x 515.67656pt>
+
+<images/multiplexion_moore.png, id=22, 721.19438pt x 515.67656pt>
 File: images/multiplexion_moore.png Graphic file (type png)
 
 <use images/multiplexion_moore.png>
-Package pdftex.def Info: images/multiplexion_moore.png used on input line 229.
+Package pdftex.def Info: images/multiplexion_moore.png used on input line 232.
 (pdftex.def)             Requested size: 216.35999pt x 154.70415pt.
+ [4 <./images/input_moore.png> <./images/jk_toggle_moore.png> <./images/multipl
+exion_moore.png>]
 
-<images/time_diagram_moore.png, id=24, 1004.25188pt x 158.09062pt>
-File: images/time_diagram_moore.png Graphic file (type png)
+pdfTeX warning: pdflatex (file ./images/Esquematico_Moore.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<images/Esquematico_Moore.pdf, id=27, 845.07724pt x 597.55246pt>
+File: images/Esquematico_Moore.pdf Graphic file (type pdf)
 
-<use images/time_diagram_moore.png>
-Package pdftex.def Info: images/time_diagram_moore.png used on input line 242.
-(pdftex.def)             Requested size: 451.90918pt x 71.1401pt.
- [4 <./images/jk_toggle_moore.png> <./images/multiplexion_moore.png> <./images/
-time_diagram_moore.png>] (ejercicio1.aux
+<use images/Esquematico_Moore.pdf>
+Package pdftex.def Info: images/Esquematico_Moore.pdf used on input line 243.
+(pdftex.def)             Requested size: 507.05026pt x 358.53424pt.
+
+Overfull \hbox (23.3534pt too wide) in paragraph at lines 243--244
+ [][] 
+ []
+
+<images/diagrama_estados_mealy.png, id=28, 1071.00125pt x 466.07458pt>
+File: images/diagrama_estados_mealy.png Graphic file (type png)
+
+<use images/diagrama_estados_mealy.png>
+Package pdftex.def Info: images/diagrama_estados_mealy.png used on input line 2
+74.
+(pdftex.def)             Requested size: 428.39291pt x 186.42653pt.
+ [5 <./images/Esquematico_Moore.pdf>]
+(anexo.tex [6 <./images/diagrama_estados_mealy.png>]) [7] (ejercicio1.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 34039 strings out of 493328
- 866211 string characters out of 3136537
- 1210288 words of memory out of 3000000
- 37045 multiletter control sequences out of 15000+200000
+ 34330 strings out of 493328
+ 871229 string characters out of 3136537
+ 1213289 words of memory out of 3000000
+ 37328 multiletter control sequences out of 15000+200000
  7809 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,14n,119p,734b,971s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,14n,119p,734b,974s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ejercicio1.pdf (4 pages, 225545 bytes).
+Output written on ejercicio1.pdf (7 pages, 445503 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
