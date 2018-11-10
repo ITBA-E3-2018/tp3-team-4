@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=Y3 Pin=D?-1
+Added Component: Designator=R?(RES400)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=D?-2
+Added Pin To Net: NetName=Y3 Pin=R?-2
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=R?-1
+Added Net: Name=NetD?_1
+Added Member To Class: ClassName=Esquematico Member=Component R? RES
+Added Room: Name=Esquematico

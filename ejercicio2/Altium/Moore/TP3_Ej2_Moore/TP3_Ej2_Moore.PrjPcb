@@ -55,7 +55,7 @@ GenerateClassCluster=0
 DocumentUniqueId=OWWBPQHL
 
 [Document2]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Gate 1.IntLib
+DocumentPath=..\..\..\..\..\..\Altium\Library\LIBEBAL\LIBEBAL.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Gate 2.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Gate 1.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -89,7 +89,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Arithmetic.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Gate 2.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Boundary Scan.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Arithmetic.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Buffer Line Driver.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Boundary Scan.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,7 +140,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document7]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Clock Clock Support.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Buffer Line Driver.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,7 +157,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Comparator.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Clock Clock Support.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -174,7 +174,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document9]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Counter.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Comparator.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Decoder Demux.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Counter.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -208,7 +208,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document11]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic EDAC.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Decoder Demux.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -225,7 +225,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document12]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Flip-Flop.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic EDAC.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -242,7 +242,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document13]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Latch.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Flip-Flop.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -259,7 +259,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document14]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Memory Mapper.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Latch.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -276,7 +276,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document15]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Multifunction.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Memory Mapper.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -293,7 +293,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document16]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Multiplexer.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Multifunction.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -310,7 +310,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document17]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Multivibrator.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Multiplexer.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -327,7 +327,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document18]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Parity Gen Check Detect.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Multivibrator.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -344,7 +344,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document19]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Register.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Parity Gen Check Detect.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -361,7 +361,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document20]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Switch.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Register.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -378,7 +378,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document21]
-DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Translator.IntLib
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Switch.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -395,6 +395,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document22]
+DocumentPath=..\..\..\..\..\..\..\Downloads\Texas Instruments\Texas Instruments\TI Logic Translator.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document23]
 DocumentPath=PCB2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1358,6 +1375,54 @@ NetClassSeparateForBusSections=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=LIBEBAL.IntLib
+ComponentDesignItemID0=CON2
+ComponentSymbolReference0=CON2
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=LIBEBAL.IntLib
+ComponentDesignItemID1=CON3
+ComponentSymbolReference1=CON3
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=LIBEBAL.IntLib
+ComponentDesignItemID2=MOLEX2
+ComponentSymbolReference2=MOLEX2
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=TI Logic Flip-Flop.IntLib
+ComponentDesignItemID3=SN74LS175N
+ComponentSymbolReference3=SN74LS175N
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=TI Logic Flip-Flop.IntLib
+ComponentDesignItemID4=SN74LS74AN
+ComponentSymbolReference4=SN74LS74AN
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=TI Logic Gate 2.IntLib
+ComponentDesignItemID5=SN74HC11N
+ComponentSymbolReference5=SN74HC11N
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=TI Logic Gate 2.IntLib
+ComponentDesignItemID6=SN74HC4075N
+ComponentSymbolReference6=SN74HC4075N
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=TI Logic Gate 2.IntLib
+ComponentDesignItemID7=SN74HCT04N
+ComponentSymbolReference7=SN74HCT04N
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1371,6 +1436,99 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Code_JEDEC
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=ComponentLink1Description
+ParameterUpdate3=1
+ParameterName4=ComponentLink1URL
+ParameterUpdate4=1
+ParameterName5=ComponentLink2Description
+ParameterUpdate5=1
+ParameterName6=ComponentLink2URL
+ParameterUpdate6=1
+ParameterName7=DatasheetVersion
+ParameterUpdate7=1
+ParameterName8=Description
+ParameterUpdate8=1
+ParameterName9=LatestRevisionDate
+ParameterUpdate9=1
+ParameterName10=LatestRevisionNote
+ParameterUpdate10=1
+ParameterName11=Library Reference
+ParameterUpdate11=1
+ParameterName12=PackageDescription
+ParameterUpdate12=1
+ParameterName13=PackageReference
+ParameterUpdate13=1
+ParameterName14=PackageVersion
+ParameterUpdate14=1
+ParameterName15=Published
+ParameterUpdate15=1
+ParameterName16=Publisher
+ParameterUpdate16=1
+ModelTypeGroup0=PCB3DLib
+ModelTypeUpdate0=1
+ModelType0=PCB3DLib
+ModelName0=N014
+ModelUpdate0=1
+ModelType1=PCB3DLib
+ModelName1=N016
+ModelUpdate1=1
+ModelTypeGroup1=PCBLIB
+ModelTypeUpdate1=1
+ModelType2=PCBLIB
+ModelName2=MOLEX2
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=N014
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=N014D
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=N016
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=SIP2
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=SIP2 90
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=SIP3
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=SIP3 90
+ModelUpdate9=1
+ModelTypeGroup2=SI
+ModelTypeUpdate2=1
+ModelType10=SI
+ModelName10=SN74HC11N
+ModelUpdate10=1
+ModelType11=SI
+ModelName11=SN74HC4075N
+ModelUpdate11=1
+ModelType12=SI
+ModelName12=SN74HCT04N
+ModelUpdate12=1
+ModelType13=SI
+ModelName13=SN74LS175N
+ModelUpdate13=1
+ModelType14=SI
+ModelName14=SN74LS74AN
+ModelUpdate14=1
+ModelTypeGroup3=SIM
+ModelTypeUpdate3=1
+ModelType15=SIM
+ModelName15=SN74LS175
+ModelUpdate15=1
+ModelType16=SIM
+ModelName16=SN74LS74
+ModelUpdate16=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
