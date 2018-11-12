@@ -54,7 +54,7 @@ Se comenzó por la implementación de la máquina de estados de Moore, para ello
 \begin{description}
 \item[Vacío:] Configuración de entrada S=0, I=0, que indica que el depósito se encuentra vacío.
 \item[Medio:] Configuración de entrada S=0, I=1, que indica que el depósito esta lleno por la mitad.
-\item[Lleno:] Configuracion de entrada S=1, I=1, que indica que el depósito se encuentra lleno.
+\item[Lleno:] Configuración de entrada S=1, I=1, que indica que el depósito se encuentra lleno.
 \end{description}
 
 \subsubsection*{Estados:}
@@ -316,8 +316,42 @@ Al igual que se procedió en el caso de la máquina de Moore, a partir del Cuadr
 	\caption{Tabla de verdad cambio de estado} \label{1_tabla_verdad_mealy}
 \end{table}
 
-Cabe destacar que en la tabla de verdad del Cuadro \ref{1_tabla_verdad_mealy}, las salidas se definen como 'don't care'(x) para las configuraciones de entradas $ySI = x01$ y $ySI = x10$, esto es porque al igual que en la máquina de moore, se utilizará
+Cabe destacar que en la tabla de verdad del Cuadro \ref{1_tabla_verdad_mealy}, las salidas se definen como 'don't care'(x) para las configuraciones de entradas $ySI = x01$ y $ySI = x10$, esto es porque al igual que en la máquina de Moore, se utilizará un multiplexor y un Flip-Flop JK en modo Toggle (J=1, K=1) para seleccionar que las salidas sean iguales o complementarias.
 
-\input{anexo}
+Se simplificaron las funciones mediante mapas de Karnaugh, arrojando los siguientes resultados:
+
+\begin{multicols}{2}
+\begin{center}
+\begin{Karnaughvuit}
+	\minterms{0,4}
+	\maxterms{3,7}
+	\indeterminats{1,2,5,6}
+	\implicant{0}{5}{}
+\end{Karnaughvuit}
+
+$b_1 = \overline{S}$, $b_2 = \overline{S}$
+\end{center}
+
+\columnbreak
+
+\begin{center}
+\begin{Karnaughvuit}
+	\minterms{0,3,4,7}
+	\maxterms{1,5}
+	\indeterminats{2,6}
+	\implicant{3}{6}{green}
+	\implicantcostats{0}{6}{}
+\end{Karnaughvuit}
+\end{center}
+
+\[
+Y = S + \overline{I}
+\]
+\end{multicols}
+
+\subsection*{Implementación}
+
+Se utilizó un Flip-Flop D para representar los dos estados de la maquina de Mealy, siguiendo los resultados arrojados por las tablas de verdad y los mapas de Karnaugh del apartado anterior:
+
 
 \end{document}
