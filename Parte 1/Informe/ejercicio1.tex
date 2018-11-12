@@ -77,7 +77,7 @@ A continuación se presenta el diagrama de estados y transiciones, a partir del 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{images/diagrama_estados_moore.png}
+\includegraphics[scale=0.3]{images/diagrama_estados_moore.png}
 \caption{Diagrama de estados y transiciones} \label{1_figa}
 \end{figure}
 
@@ -345,13 +345,40 @@ $b_1 = \overline{S}$, $b_2 = \overline{S}$
 \end{center}
 
 \[
-Y = S + \overline{I}
+Y = S + \overline{I} = \overline{\overline{S}I}
 \]
 \end{multicols}
 
 \subsection*{Implementación}
 
-Se utilizó un Flip-Flop D para representar los dos estados de la maquina de Mealy, siguiendo los resultados arrojados por las tablas de verdad y los mapas de Karnaugh del apartado anterior:
+Se utilizó un Flip-Flop D para representar los dos estados de la maquina de Mealy, siguiendo los resultados arrojados por las tablas de verdad y los mapas de Karnaugh del apartado anterior. La Figura \ref{1_input_mealy} muestra el diagrama implementado.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{images/input_mealy.png}
+\caption{Lógica de transición de estados}
+\label{1_input_mealy}
+\end{figure}
+
+La Figura \ref{1_salida_mealy} muestra la lógica implementada a la salida de la máquina de Mealy:
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{images/multiplexion_mealy.png}
+\caption{Lógica a la salida}
+\label{1_salida_mealy}
+\end{figure}
+
+Al igual que en la máquina de Moore, el Flip-Flop JK togglea sus salidas cada vez que la variable de estados $y$ cambia de 0 a 1, es decir, cada vez que las bombas dejan de trabajar de forma complementaria. Las dos salidas del Flip-Flop alimentan la entrada '0' del multiplexior. Las entradas '1' de los mismos estan alimentadas por la señal $\overline{S}$. Las lineas de selección de los multiplexores están controladas por la variable de estado $y$. De esta forma cuando $y=0$ )(bombas complementarias), a la salida de los multiplexores obtengo las salidas complementarias del Flip-Flop JK. Por otro lado cuando $y=1$(ambas bombas trabajan juntas) obtengo a la salida de los multiplexores la señal $\overline{S}$, entonces cuando el depósito este lleno ($S=1$) obtendré en ambas salidas $\overline{1}=0$, es decir estarán apagadas. Cuando el deposito esté vacío la máquina esta en el estado $y=1$ y las entradas indicaran $SI=00$, entonces tendré en las salidas $\overline{0}=1$, es decir ambas bombas estarán encendidas.
+
+El esquemático completo del circuito implementado en Altium Designer, a partir del cual se diseñó el circuito impreso se muestra en la Figura \ref{1_fig_esqm_mealy}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{images/Esquematico_Mealy.pdf}
+\caption{Esquemático del circuito implementado. Máquina de MEaly}
+\label{1_fig_esqm_mealy}
+\end{figure}
 
 
 \end{document}

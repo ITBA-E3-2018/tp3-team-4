@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.12)  12 NOV 2018 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.12)  12 NOV 2018 16:44
 entering extended mode
 **./ejercicio1.tex
 (ejercicio1.tex
@@ -908,7 +908,7 @@ File: images/diagrama_estados_moore.png Graphic file (type png)
 <use images/diagrama_estados_moore.png>
 Package pdftex.def Info: images/diagrama_estados_moore.png  used on input line 
 80.
-(pdftex.def)             Requested size: 267.92958pt x 195.7947pt.
+(pdftex.def)             Requested size: 200.9523pt x 146.84975pt.
  [1
 
 {C:/Users/lisan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <./image
@@ -918,24 +918,23 @@ File: images/input_moore.png Graphic file (type png)
 <use images/input_moore.png>
 Package pdftex.def Info: images/input_moore.png  used on input line 209.
 (pdftex.def)             Requested size: 173.90102pt x 137.31406pt.
- [3]
-<images/jk_toggle_moore.png, id=21, 584.1825pt x 398.23781pt>
+<images/jk_toggle_moore.png, id=18, 584.1825pt x 398.23781pt>
 File: images/jk_toggle_moore.png Graphic file (type png)
 <use images/jk_toggle_moore.png>
 Package pdftex.def Info: images/jk_toggle_moore.png  used on input line 222.
 (pdftex.def)             Requested size: 175.25609pt x 119.47226pt.
-<images/multiplexion_moore.png, id=22, 721.19438pt x 515.67656pt>
+ [3 <./images/input_moore.png>]
+<images/multiplexion_moore.png, id=23, 721.19438pt x 515.67656pt>
 File: images/multiplexion_moore.png Graphic file (type png)
 <use images/multiplexion_moore.png>
 Package pdftex.def Info: images/multiplexion_moore.png  used on input line 232.
 
 (pdftex.def)             Requested size: 216.35999pt x 154.70415pt.
- [4 <./images/input_moore.png> <./images/jk_toggle_moore.png> <./images/multipl
-exion_moore.png>]
+
 
 pdfTeX warning: pdflatex (file ./images/Esquematico_Moore.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<images/Esquematico_Moore.pdf, id=27, 845.07724pt x 597.55246pt>
+<images/Esquematico_Moore.pdf, id=24, 845.07724pt x 597.55246pt>
 File: images/Esquematico_Moore.pdf Graphic file (type pdf)
 <use images/Esquematico_Moore.pdf>
 Package pdftex.def Info: images/Esquematico_Moore.pdf  used on input line 243.
@@ -945,34 +944,61 @@ Overfull \hbox (23.3534pt too wide) in paragraph at lines 243--244
  [][] 
  []
 
+[4 <./images/jk_toggle_moore.png> <./images/multiplexion_moore.png>]
 <images/diagrama_estados_mealy.png, id=28, 1071.00125pt x 466.07458pt>
 File: images/diagrama_estados_mealy.png Graphic file (type png)
 <use images/diagrama_estados_mealy.png>
 Package pdftex.def Info: images/diagrama_estados_mealy.png  used on input line 
 274.
 (pdftex.def)             Requested size: 428.39291pt x 186.42653pt.
-[5 <./images/Esquematico_Moore.pdf>] [6 <./images/diagrama_estados_mealy.png>]
-[7] (ejercicio1.aux
+ [5 <./images/Esquematico_Moore.pdf>] [6 <./images/diagrama_estados_mealy.png>]
+<images/input_mealy.png, id=44, 1062.21844pt x 318.43968pt>
+File: images/input_mealy.png Graphic file (type png)
+<use images/input_mealy.png>
+Package pdftex.def Info: images/input_mealy.png  used on input line 358.
+(pdftex.def)             Requested size: 318.66798pt x 95.53264pt.
+<images/multiplexion_mealy.png, id=45, 860.46469pt x 484.05844pt>
+File: images/multiplexion_mealy.png Graphic file (type png)
+<use images/multiplexion_mealy.png>
+Package pdftex.def Info: images/multiplexion_mealy.png  used on input line 367.
+
+(pdftex.def)             Requested size: 258.1414pt x 145.21864pt.
+
+
+pdfTeX warning: pdflatex (file ./images/Esquematico_Mealy.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<images/Esquematico_Mealy.pdf, id=46, 845.07724pt x 597.55246pt>
+File: images/Esquematico_Mealy.pdf Graphic file (type pdf)
+<use images/Esquematico_Mealy.pdf>
+Package pdftex.def Info: images/Esquematico_Mealy.pdf  used on input line 378.
+(pdftex.def)             Requested size: 507.05026pt x 358.53424pt.
+
+Overfull \hbox (23.3534pt too wide) in paragraph at lines 378--379
+ [][] 
+ []
+
+[7 <./images/input_mealy.png> <./images/multiplexion_mealy.png>] [8 <./images/E
+squematico_Mealy.pdf>] (ejercicio1.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 34177 strings out of 492970
- 871265 string characters out of 3135854
- 1221168 words of memory out of 3000000
- 37521 multiletter control sequences out of 15000+200000
+ 34195 strings out of 492970
+ 871769 string characters out of 3135854
+ 1217168 words of memory out of 3000000
+ 37536 multiletter control sequences out of 15000+200000
  7809 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,14n,119p,734b,973s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,14n,119p,1065b,973s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on ejercicio1.pdf (7 pages, 447544 bytes).
+Output written on ejercicio1.pdf (8 pages, 593076 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
