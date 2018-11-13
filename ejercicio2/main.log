@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.23)  7 NOV 2018 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.23)  12 NOV 2018 20:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -1334,46 +1334,53 @@ Package caption Info: End \AtBeginDocument code.
 <diagestmoore.jpg, id=4, 359.09157pt x 242.40562pt>
 File: diagestmoore.jpg Graphic file (type jpg)
  <use diagestmoore.jpg>
-Package pdftex.def Info: diagestmoore.jpg used on input line 36.
+Package pdftex.def Info: diagestmoore.jpg used on input line 38.
 (pdftex.def)             Requested size: 359.09068pt x 242.40501pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 43.
 
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/Paulo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./diagestmo
-ore.jpg>] [2] [3] [4] (main.aux
+ore.jpg>] [2] <diagestmealy.jpg, id=23, 338.76563pt x 310.91156pt>
+File: diagestmealy.jpg Graphic file (type jpg)
+
+<use diagestmealy.jpg>
+Package pdftex.def Info: diagestmealy.jpg used on input line 152.
+(pdftex.def)             Requested size: 203.26093pt x 186.54836pt.
+ [3] [4 <./diagestmealy.jpg>] [5] (main.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 35551 strings out of 493328
- 900133 string characters out of 3130072
- 1306320 words of memory out of 3000000
- 38528 multiletter control sequences out of 15000+200000
- 8749 words of font info for 35 fonts, out of 3000000 for 9000
+ 35564 strings out of 493328
+ 900322 string characters out of 3130072
+ 1306337 words of memory out of 3000000
+ 38538 multiletter control sequences out of 15000+200000
+ 9959 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,16n,119p,837b,1062s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,17n,119p,837b,1062s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Paulo/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Paulo/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Paul
-o/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr5.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr6.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr7.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on main.pdf (4 pages, 166737 bytes).
+ublic/amsfonts/cm/cmbx12.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Paulo/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Paulo/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Pau
+lo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
+C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr5.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Paulo/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on main.pdf (5 pages, 234739 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
