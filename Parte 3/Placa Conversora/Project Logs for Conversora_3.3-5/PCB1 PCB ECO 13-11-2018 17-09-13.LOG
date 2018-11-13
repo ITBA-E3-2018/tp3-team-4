@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=HO4 Pin=HV-1
+Removed Pin From Net: NetName=HO3 Pin=HV-2
+Removed Pin From Net: NetName=HO2 Pin=HV-5
+Removed Pin From Net: NetName=HO1 Pin=HV-6
+Added Pin To Net: NetName=HO1 Pin=HV-1
+Added Pin To Net: NetName=HO2 Pin=HV-2
+Added Pin To Net: NetName=HO3 Pin=HV-5
+Added Pin To Net: NetName=HO4 Pin=HV-6
+Added Room: Name=Esquematico

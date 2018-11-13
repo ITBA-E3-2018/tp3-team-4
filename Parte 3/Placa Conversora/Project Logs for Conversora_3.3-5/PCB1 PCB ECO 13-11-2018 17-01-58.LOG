@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=LI4 Pin=LV-1
+Removed Pin From Net: NetName=LI3 Pin=LV-2
+Removed Pin From Net: NetName=GND Pin=LV-3
+Removed Pin From Net: NetName=LI2 Pin=LV-5
+Removed Pin From Net: NetName=LI1 Pin=LV-6
+Change Component Footprint: Designator=LV Old Footprint=SIP6 New Footprint=SIP4
+Change Component Comment : Designator=LV Old Comment=CON6 New Comment=CON4
+Added Pin To Net: NetName=LI1 Pin=LV-1
+Added Pin To Net: NetName=LI2 Pin=LV-2
+Added Pin To Net: NetName=LI3 Pin=LV-3
+Added Pin To Net: NetName=LI4 Pin=LV-4
+Added Room: Name=Esquematico
