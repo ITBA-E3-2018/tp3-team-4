@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=Q1 Pin=U2-3
+Removed Pin From Net: NetName=Q0 Pin=U2-4
+Removed Pin From Net: NetName=GND Pin=U2-5
+Removed Pin From Net: NetName=NetU1_1 Pin=U2-6
+Added Pin To Net: NetName=Q1 Pin=U2-1
+Added Pin To Net: NetName=Q0 Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=NetU1_1 Pin=U2-9
+Added Member To Class: ClassName=Esq_Ej3_Moore Member=Component D? LED
+Added Member To Class: ClassName=Esq_Ej3_Moore Member=Component INPUT CON2
+Added Member To Class: ClassName=Esq_Ej3_Moore Member=Component J1 MOLEX2
+Added Member To Class: ClassName=Esq_Ej3_Moore Member=Component OUTPUT CON2
+Added Member To Class: ClassName=Esq_Ej3_Moore Member=Component R? RES
+Added Member To Class: ClassName=Esq_Ej3_Moore Member=Component U1 SN74HC11N
+Added Member To Class: ClassName=Esq_Ej3_Moore Member=Component U2 SN74HC4075N
+Added Member To Class: ClassName=Esq_Ej3_Moore Member=Component U3 SN74LS74AN
+Added Room: Name=Esq_Ej3_Moore

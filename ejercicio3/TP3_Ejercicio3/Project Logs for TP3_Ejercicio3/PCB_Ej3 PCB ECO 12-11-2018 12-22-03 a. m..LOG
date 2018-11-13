@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Q0 Pin=U2-2
+Removed Pin From Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=Q0 Pin=U2-8
+Added Room: Name=Esq_Ej3_Moore
