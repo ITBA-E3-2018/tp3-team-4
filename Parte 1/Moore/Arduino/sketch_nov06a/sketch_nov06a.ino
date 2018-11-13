@@ -8,20 +8,15 @@ void setup() {
 }
 
 void loop() {
-  delay(10);
+  digitalWrite(S, HIGH);
+  digitalWrite(I, HIGH);
+  delay(100);
+  digitalWrite(S, LOW);
+  digitalWrite(I, HIGH);
+  delay(1000);
   digitalWrite(S, LOW);
   digitalWrite(I, LOW);
-  digitalWrite(I, HIGH);
-  digitalWrite(S, LOW);
-  delay(10);
-  digitalWrite(I, HIGH);
-  digitalWrite(S, HIGH);
-  delay(1000);
-  digitalWrite(I, HIGH);
-  digitalWrite(S, LOW);
-  delay(10);
-  digitalWrite(I, HIGH);
-  digitalWrite(S, HIGH);
+  delay(100);
   // put your main code here, to run repeatedly:
 
 }
