@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=y3 Pin=FF2-2
+Removed Pin From Net: NetName=Clock Pin=FF2-3
+Removed Pin From Net: NetName=y3 Pin=FF2-5
+Removed Pin From Net: NetName=y3neg Pin=FF2-6
+Added Pin To Net: NetName=y3neg Pin=FF2-8
+Added Pin To Net: NetName=y3 Pin=FF2-9
+Added Pin To Net: NetName=Clock Pin=FF2-11
+Added Pin To Net: NetName=y3 Pin=FF2-12
+Added Member To Class: ClassName=Esquematico Member=Component CD3 Cap
+Added Room: Name=Esquematico
