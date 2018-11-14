@@ -1,0 +1,75 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{tikz}
+\usetikzlibrary{matrix,calc}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{circuitikz}
+\usepackage{tikz-timing}
+\usetikztiminglibrary[rising arrows]{clockarrows}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{listings}
+\usepackage[export]{adjustbox}
+\usepackage{graphicx,wrapfig,lipsum}
+\usepackage{booktabs}
+\usepackage[skip=0pt]{caption}
+\captionsetup[figure]{font=small,labelfont=small}
+
+
+\input{karnaugh_def}
+\input{KarnaugsparaTP3Ej2}
+\input{KarnaugsparaTP3Ej3}
+
+
+\begin{document}
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{KarnaughvuiteTP3}
+		\minterms{4}
+		\maxterms{0,1,2,5,6}
+		\indeterminats{3,7}
+		\implicant{4}{4}{orange}
+		\end{KarnaughvuiteTP3}
+	\end{center}
+	\caption{$Q_0$: Máq. de Moore} 
+	\label{2_fig1}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{KarnaughvuiteTP3}
+		\minterms{5,6}
+		\maxterms{0,1,2,4}
+		\indeterminats{3,7}
+		\implicant{5}{7}{orange}
+		\implicant{7}{6}{blue}
+		\end{KarnaughvuiteTP3}
+	\end{center}
+	\caption{$Q_1$ Máq. de Moore} 
+	\label{2_fig2}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{KarnaughquatreTP3}
+		\minterms{1}
+		\maxterms{0,2}
+		\indeterminats{3}
+		\implicantsol{1}{green}
+		\end{KarnaughquatreTP3}
+	\end{center}
+	\caption{$Z$: Máq. de Moore} 
+	\label{2_fig3}
+\end{figure}
+
+
+
+\end{document}
