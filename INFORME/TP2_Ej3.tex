@@ -1,0 +1,124 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{tikz}
+\usetikzlibrary{matrix,calc}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{circuitikz}
+\usepackage{tikz-timing}
+\usetikztiminglibrary[rising arrows]{clockarrows}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{listings}
+\usepackage[export]{adjustbox}
+\usepackage{graphicx,wrapfig,lipsum}
+\usepackage{booktabs}
+\usepackage[skip=0pt]{caption}
+\captionsetup[figure]{font=small,labelfont=small}
+
+
+%\input{karnaugh_def}
+%\input{KarnaugsparaTP3Ej2}
+
+
+
+\begin{document}
+\section{Ejercicio 3}
+\subsection{Moore}
+Se nos dio un diagrama de estado (Fig.) y se nos pidió implementar una máquina de estado de Moore que la resolviera. Para esto hicimos un análisis con tablas que muestre las transiciones de estados, y luego vimos como serían las transiciones con Flip Flop D (). Como ya hicimos anteriormente utilizamos mapas de Karnaugh para resolver el problema. 
+
+%%	MAPA DE KARNAUGH
+
+\begin{figure}[hbtp]
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c|}{\multirow{2}{*}{\textbf{ESTADO ACTUAL}}} & \multicolumn{4}{c|}{\textbf{ESTADO SIGUIENTE}} & \multirow{2}{*}{\textbf{SALIDA}} \\ \cline{3-6}
+\multicolumn{2}{|c|}{} & \multicolumn{2}{c|}{\textbf{W = 0}} & \multicolumn{2}{c|}{\textbf{W = 1}} &  \\ \hline
+\textbf{$Q_{1_{t}}$} & \textbf{$Q_{0_{t}}$} & \textbf{$Q_{1_{t+1}}$} & \textbf{$Q_{0_{t+1}}$} & \textbf{$Q_{1_{t+1}}$} & \textbf{$Q_{0_{t}}$} & \textbf{Z} \\ \hline
+\textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} \\ \hline
+\textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{1} \\ \hline
+\textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} \\ \hline
+\textbf{1} & \textbf{1} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} \\ \hline
+		\end{tabular}
+		\caption{Transiciones con Flip Flop - Máquina de Moore} 
+		\label{3_fig2}
+	\end{center}
+\end{figure}
+
+
+
+%%	KARNAUGH Q0
+
+
+
+%%	KARNAUGH Q1
+
+
+
+%%	KARNAUGH Z
+
+
+
+%% EXPLICACION DEL ANALISIS
+Al reducir los minitérminos obtuvimos las siguientes expresiones que representan el circuito lógico que se usara para resolver la máquina de estado:
+
+\begin{align*}
+	Q_{0_{t+1}} &= W * \overline{Q_{1}} * \overline{Q_{0}}\\
+	Q_{1_{t+1}} &= W * (Q_{1} + Q_{0})  \\
+	Z &= Q_{0} \\
+\end{align*}
+
+
+Entonces el circuito quedará de la siguiente manera:
+
+\begin{figure}[hbtp]
+	\centering
+	\includegraphics[scale=1]{Imagenes/circej3.png}
+	\caption{Circuito lógico - Moore}
+	\label{3_fig6}
+\end{figure}
+
+
+\subsection{Mealy}
+Analizando las tablas de transiciones de estados pudimos notar que la función de la máquina es prender la salida cuando se recibe la primer señal en HIGH y luego se apaga en el segundo CLOCK. Para implementar ahora la máquina de Mealy tuvimos en cuenta esto y diseñamos el siguiente diagrama.
+
+De este diagrama representamos en una tabla la transiciones de estados directamente con un Flip Flop, ya que al haber solo 2 estados solo se necesita un Flip Flop para representar ambos estados, el estado 0 y estado 1. La tabla es la siguiente:
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{\textbf{ESTADO ACTUAL}} & \multicolumn{2}{c|}{\textbf{ESTADO SIGUIENTE}} & \multicolumn{2}{c|}{\textbf{SALIDA}} \\ \cline{2-5} 
+ & \multicolumn{2}{c|}{\textbf{Q}} & \multicolumn{2}{c|}{\textbf{Z}} \\ \hline
+\textbf{Q} & \textbf{W=0} & \textbf{W=1} & \textbf{W=0} & \textbf{W=1} \\ \hline
+\textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{1} \\ \hline
+\textbf{1} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} \\ \hline
+		\end{tabular}
+		\caption{Transiciones con Flip Flop - Máquina de Moore} 
+		\label{3_fig8}
+	\end{center}
+\end{figure}
+
+Sin un analisis muy complejo, el flip flop devuelve una salida en HIGH solo cuando la entrada es HIGH, e igualmente cuando devuelven una señal LOW, por lo que la salida será directamente la entrada. Pero la salida depende tanto del estado como de la entrada, característica de este tipo de máquina de estado, por lo que la salida será:
+
+\begin{align*}
+	Z &= W * \overline{Q_{0}} \\
+\end{align*}
+
+
+\subsection{Implementación}
+Para crear ambas máquinas se pidió que las entradas y salidas del circuito deberán ser lógica de 5V, mientras que toda la lógica interna trabajará con 3,3V. Para esto hicimos un circuito que pueda bajar de 5V a 3,3V y viceversa.
+
+Observamos que las tecnologías TTL y CMOS aceptaban bien los valores de 3,3V como señal HIGH para estos circuitos, por lo que no tuvimos restricción con respecto a las tecnologías
+\subsection{Conclusión}
+Pudimos observar el buen funcionamiento de ambas máquinas
+
+
+\end{document}
