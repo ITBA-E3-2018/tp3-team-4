@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.23)  14 NOV 2018 19:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.23)  14 NOV 2018 19:49
 entering extended mode
-**./main.tex
-(main.tex
+**./TP2_Ej3.tex
+(TP2_Ej3.tex
 LaTeX2e <2017-04-15>
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -1203,26 +1203,25 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
-) (karnaugh_def.tex) (KarnaugsparaTP3Ej2.tex) (main.aux
+) (TP2_Ej3.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
-\openout1 = `main.aux'.
+\openout1 = `TP2_Ej3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-
-ABD: EveryShipout initializing macros
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+ ABD: EveryShipout initializing macros
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1288,8 +1287,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1331,56 +1330,48 @@ enefit from \pgfplotsset{compat=1.16} (current compat level: 1.15).
 \c@lstlisting=\count165
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<diagestmoore.jpg, id=4, 284.56313pt x 200.24812pt>
-File: diagestmoore.jpg Graphic file (type jpg)
- <use diagestmoore.jpg>
-Package pdftex.def Info: diagestmoore.jpg used on input line 38.
-(pdftex.def)             Requested size: 284.56242pt x 200.24763pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
-
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+) <Imagenes/circej3.png, id=4, 427.5975pt x 222.07968pt>
+File: Imagenes/circej3.png Graphic file (type png)
 
-{C:/Users/Paulo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./diagestmo
-ore.jpg>] [2] <diagestmealy.jpg, id=23, 338.76563pt x 310.91156pt>
-File: diagestmealy.jpg Graphic file (type jpg)
+<use Imagenes/circej3.png>
+Package pdftex.def Info: Imagenes/circej3.png used on input line 83.
+(pdftex.def)             Requested size: 427.59645pt x 222.07913pt.
+ [1
 
-<use diagestmealy.jpg>
-Package pdftex.def Info: diagestmealy.jpg used on input line 152.
-(pdftex.def)             Requested size: 203.26093pt x 186.54836pt.
- [3] [4 <./diagestmealy.jpg>] [5] (main.aux
+{C:/Users/Paulo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Imagenes/
+circej3.png>] [2] (TP2_Ej3.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 35564 strings out of 493328
- 900322 string characters out of 3130072
- 1306337 words of memory out of 3000000
- 38538 multiletter control sequences out of 15000+200000
- 9959 words of font info for 39 fonts, out of 3000000 for 9000
+ 35154 strings out of 493328
+ 893262 string characters out of 3130072
+ 1269613 words of memory out of 3000000
+ 38140 multiletter control sequences out of 15000+200000
+ 7156 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,16n,119p,837b,1062s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,11n,119p,731b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Paulo/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Paulo/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Pau
-lo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
-C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr5.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Paulo/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on main.pdf (5 pages, 225938 bytes).
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Pau
+lo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C
+:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr7.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr9.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on TP2_Ej3.pdf (2 pages, 106763 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
