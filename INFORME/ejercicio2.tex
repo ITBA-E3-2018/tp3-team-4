@@ -28,9 +28,9 @@
 \input{KarnaugsparaTP3Ej2}
 
 \begin{document}
-\section{Ejercicio 2}
+\section*{Ejercicio 2}
 
-\subsection{Moore}
+\subsection*{Moore}
 Se nos pidi\'o realizar una m\'aquina de Moore y una de Mealy que puedan detectar la secuencia 1-1-0-1 y avise en la salida al detectarla. Para esto tuvimos en cuenta que cuando termina la secuencia y es detectada se toma el \'ultimo 1 de la secuencia como el primero de la siguiente secuencia en caso de que ocurran 2 secuencias seguidas, la cual ser\'ia 1-1-0-1-1-0-1. Primero diseñamos un diagrama de estados basándonos en la m\'aquina de Moore, donde tendremos 5 estados. El estado A es el caso base donde se recibió un 0 fuera de la secuencia pedida, el estado B es el caso donde se recibió el primer 1, el estado C es el caso donde se recibe el segundo 1, el estado D donde se recibe la secuencia 1-1-0 y el estado E es cuando se recibe la secuencia completa. 
 El diagrama queda de la siguiente manera:
 
@@ -143,12 +143,21 @@ Tomando las agrupaciones marcadas en cada mapa podemos formas las ecuaciones que
 	Q_{2_{t+1}} &= W * \overline{Q_{2}} * Q_{1} * \overline{Q_{0}} \\
 	Z &= Q_{2} \\
 \end{align*}
-Una vez que ya tenemos las ecuaciones procedemos a armar el circuito.
+Una vez que ya tenemos las ecuaciones procedemos a armar el circuito:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=14cm]{Imagenes/TP2_EJ2_MOORE_GREY.jpg}
+\caption{Circuito lógico de Moore}
+\end{figure}
+
+%%%%				VERILOOOOOOG
 
 
 
+Pudimos observar que el circuito encuentra bien la secuencia pedida.
 
-\subsection{Mealy}
+\subsection*{Mealy}
 
 También se nos pidi\'o armar una m\'aquina pero de Mealy en lugar de Moore. Para esto rediseñamos el diagrama de la máquina de estados utilizando la notaci\'on de Mealy con flechas que indiquen la entrada y la salida entre transición de estados. Utilizando este método tendremos menos estados pero la salida esta vez será dependiente tanto de los estados como de las entradas.
 
@@ -247,5 +256,15 @@ Tomando las agrupaciones marcadas en cada mapa podemos formas las ecuaciones que
 	Q_{1_{t+1}} &= Q_{0} * ( Q_{1} + w ) \\
 	Z &= w * Q_{1} * \overline{Q_{0}} \\
 \end{align*}
-De estas ecuaciones podemos formar el siguiente circuito.
+De estas ecuaciones podemos formar el siguiente circuito:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=14cm]{Imagenes/TP2_EJ2_MEALY_GREY.jpg}
+\caption{Circuito lógico de Mealy }
+\end{figure}
+
+%% 	VERILOG MEALY
+
+Con esto podemos concluir que el circuito de Mealy es mejor que el de Moore ya que utiliza menos integrados y realiza la misma función. Observando ambos circuitos pudimos ver que realizaban lo pedido de encontrar la secuencia.
 \end{document}
