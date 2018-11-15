@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.23)  14 NOV 2018 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.23)  14 NOV 2018 21:39
 entering extended mode
 **./TP2_Ej3.tex
 (TP2_Ej3.tex
@@ -1331,38 +1331,53 @@ enefit from \pgfplotsset{compat=1.16} (current compat level: 1.15).
 \c@lstlisting=\count165
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+<Imagenes/mooreej3.jpg, id=4, 351.56343pt x 237.88875pt>
+File: Imagenes/mooreej3.jpg Graphic file (type jpg)
+
+<use Imagenes/mooreej3.jpg>
+Package pdftex.def Info: Imagenes/mooreej3.jpg used on input line 40.
+(pdftex.def)             Requested size: 227.62204pt x 154.01965pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/Paulo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<Imagenes/circej3.png, id=18, 427.5975pt x 222.07968pt>
+{C:/Users/Paulo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Imagenes/
+mooreej3.jpg>] <Imagenes/circej3.png, id=19, 427.5975pt x 222.07968pt>
 File: Imagenes/circej3.png Graphic file (type png)
 
 <use Imagenes/circej3.png>
-Package pdftex.def Info: Imagenes/circej3.png used on input line 133.
+Package pdftex.def Info: Imagenes/circej3.png used on input line 142.
 (pdftex.def)             Requested size: 427.59645pt x 222.07913pt.
+
+<Imagenes/mealyej3.jpg, id=21, 434.37282pt x 87.32625pt>
+File: Imagenes/mealyej3.jpg Graphic file (type jpg)
+
+<use Imagenes/mealyej3.jpg>
+Package pdftex.def Info: Imagenes/mealyej3.jpg used on input line 154.
+(pdftex.def)             Requested size: 227.62204pt x 45.76169pt.
  [2 <./Imagenes/circej3.png>]
-<Imagenes/MedicionTP3_Ej3.png, id=25, 1027.84pt x 825.0825pt>
+<Imagenes/MedicionTP3_Ej3.png, id=27, 1027.84pt x 825.0825pt>
 File: Imagenes/MedicionTP3_Ej3.png Graphic file (type png)
 
 <use Imagenes/MedicionTP3_Ej3.png>
-Package pdftex.def Info: Imagenes/MedicionTP3_Ej3.png used on input line 173.
+Package pdftex.def Info: Imagenes/MedicionTP3_Ej3.png used on input line 189.
 (pdftex.def)             Requested size: 398.33858pt x 319.76653pt.
- [3 <./Imagenes/MedicionTP3_Ej3.png (PNG copy)>] (TP2_Ej3.aux
+ [3 <./Imagenes/mealyej3.jpg> <./Imagenes/MedicionTP3_Ej3.png (PNG copy)>] [4] 
+(TP2_Ej3.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 35427 strings out of 493328
- 898034 string characters out of 3130072
- 1290859 words of memory out of 3000000
- 38397 multiletter control sequences out of 15000+200000
+ 35438 strings out of 493328
+ 898268 string characters out of 3130072
+ 1287859 words of memory out of 3000000
+ 38405 multiletter control sequences out of 15000+200000
  9959 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,16n,119p,731b,1062s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1379,9 +1394,9 @@ amsfonts/cm/cmr6.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr7.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Paulo/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on TP2_Ej3.pdf (3 pages, 155814 bytes).
+Output written on TP2_Ej3.pdf (4 pages, 229687 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
