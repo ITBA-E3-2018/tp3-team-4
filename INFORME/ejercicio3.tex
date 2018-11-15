@@ -29,8 +29,8 @@
 
 
 \begin{document}
-\section{Ejercicio 3}
-\subsection{Moore}
+\section*{Ejercicio 3}
+\subsection*{Moore}
 Se nos dio un diagrama de estado y se nos pidió implementar una máquina de estado de Moore que la resolviera. Para esto hicimos un análisis con tablas que muestre las transiciones de estados, y luego vimos como serían las transiciones con Flip Flop D (). Como ya hicimos anteriormente utilizamos mapas de Karnaugh para resolver el problema. 
 
 %%	DIAGRAMA
@@ -145,7 +145,7 @@ Entonces el circuito quedará de la siguiente manera:
 \end{figure}
 
 
-\subsection{Mealy}
+\subsection*{Mealy}
 Analizando las tablas de transiciones de estados pudimos notar que la función de la máquina es prender la salida cuando se recibe la primer señal en HIGH y luego se apaga en el segundo CLOCK. Para implementar ahora la máquina de Mealy tuvimos en cuenta esto y diseñamos el siguiente diagrama.
 
 %% DIAGRAMA DE MEALY
@@ -186,8 +186,8 @@ El circuito lógico queda muy simple a comparación del logrado con Moore, demos
 \end{figure}
 
 
-\subsection{Implementación}
-Para crear ambas máquinas se pidió que las entradas y salidas del circuito deberán ser lógica de 5V, mientras que toda la lógica interna trabajará con 3,3V. Para esto hicimos un circuito que pueda bajar de 5V a 3,3V y viceversa.
+\subsection*{Implementación}
+Para crear ambas máquinas se pidió que las entradas y salidas del circuito deberán ser lógica de 5V, mientras que toda la lógica interna trabajará con 3,3V. Para esto hicimos un circuito que pueda bajar de 5V a 3,3V y viceversa. Este circuito puede verse abajo, en donde LI es la tensión con la que trabajamos (3,3V o 5V dependiendo el caso), HV es la tensión de alimentación (de nuevo 3,3V o 5V pero sin ser igual a LI) y HO la salida que va a tener la tensión deseada. Cuando LI sea sea interpretada como estado alto, HO será 5V si LI es 3.3V y HV 5V, en caso de ser LI 5V y HV 3,3V, HO será 3,3V. Si LI es interpretada como estado bajo, HO será 0V.
 
 \begin{figure}[H]
 	\centering
@@ -203,7 +203,7 @@ En la siguiente imagen se puede ver como la salida cambia cuando el clock es HIG
 	\caption{Medición del Ejercicio 3}
 \end{figure}
 
-\subsection{Conclusión}
+\subsection*{Conclusión}
 Pudimos observar el buen funcionamiento de ambas máquinas cumpliendo la misma función, aunque el circuito resuelto con Mealy necesito solo 2 componentes (que serían 2 integrados) por lo que resulta más simple y económico, también tiene menos delay la salida ya que solo consta de una compuerta.
 
 
