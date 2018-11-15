@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700) (preloaded format=pdflatex 2018.11.5)  14 NOV 2018 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700) (preloaded format=pdflatex 2018.11.5)  14 NOV 2018 23:59
 entering extended mode
 **./main.tex
 (main.tex
@@ -895,209 +895,47 @@ Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
 \colbreak@box=\box76
 \mc@col@check@num=\count171
 )
-(karnaugh_def.tex) (KarnaugsparaTP3Ej2.tex) (KarnaugsparaTP3Ej3.tex)
-(karnaugh_def_tp3_ej1_moore.tex
-
-! LaTeX Error: Command \implicantsol already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9     }
-         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \implicant already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19     }
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \implicantcostats already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 }
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \implicantdaltbaix already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 }
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \implicantcantons already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 }
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Karnaugh already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 }
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Karnaughvuit already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103 }
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \Karnaughquatre already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.126 }
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \contingut already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.132 }
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \minterms already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138 }
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \maxterms already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 }
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \indeterminats already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150 }
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (main.aux (caratula.aux)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip53
+\multirow@cntb=\count172
+\multirow@dima=\skip54
+\bigstrutjot=\dimen303
+)
+(karnaugh_def.tex) (KarnaugsparaTP3Ej2.tex) (KarnaugsparaTP3Ej3.tex) (main.aux
+(caratula.aux)
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count172
-\scratchdimen=\dimen303
+\scratchcounter=\count173
+\scratchdimen=\dimen304
 \scratchbox=\box77
-\nofMPsegments=\count173
-\nofMParguments=\count174
+\nofMPsegments=\count174
+\nofMParguments=\count175
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count175
-\MPscratchDim=\dimen304
-\MPnumerator=\count176
-\makeMPintoPDFobject=\count177
+\MPscratchCnt=\count176
+\MPscratchDim=\dimen305
+\MPnumerator=\count177
+\makeMPintoPDFobject=\count178
 \everyMPtoPDFconversion=\toks51
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1179,7 +1017,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.16} (current compat level: 1.15).
 
-\c@lstlisting=\count178
+\c@lstlisting=\count179
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box78
@@ -1202,28 +1040,103 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{C:/Users/milto/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+{C:/Users/milto/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (ejercicio
+2.tex
+<Imagenes/diagestmoore.jpg, id=12, 284.56313pt x 200.24812pt>
+File: Imagenes/diagestmoore.jpg Graphic file (type jpg)
+<use Imagenes/diagestmoore.jpg>
+Package pdftex.def Info: Imagenes/diagestmoore.jpg  used on input line 9.
+(pdftex.def)             Requested size: 398.33858pt x 280.3424pt.
 
-! LaTeX Error: File `ejercicio1/ejercicio1.tex' not found.
+[1
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+ <./Imagenes/diagestmoore.jpg>] [2]
+<Imagenes/TP2_EJ2_MOORE_GREY.jpg, id=29, 521.84962pt x 313.77225pt>
+File: Imagenes/TP2_EJ2_MOORE_GREY.jpg Graphic file (type jpg)
+<use Imagenes/TP2_EJ2_MOORE_GREY.jpg>
+Package pdftex.def Info: Imagenes/TP2_EJ2_MOORE_GREY.jpg  used on input line 12
+0.
+(pdftex.def)             Requested size: 398.33858pt x 239.50832pt.
+ [3 <./Imagenes/TP2_EJ2_MOORE_GREY.jpg>]
+<Imagenes/diagestmealy.jpg, id=34, 338.76563pt x 310.91156pt>
+File: Imagenes/diagestmealy.jpg Graphic file (type jpg)
+<use Imagenes/diagestmealy.jpg>
+Package pdftex.def Info: Imagenes/diagestmealy.jpg  used on input line 132.
+(pdftex.def)             Requested size: 203.26093pt x 186.54836pt.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.39 \input{ejercicio1/ejercicio1}
-                                  
-*** (cannot \read from terminal in nonstop modes)
-
- 
+[4 <./Imagenes/diagestmealy.jpg>]
+<Imagenes/TP2_EJ2_MEALY_GREY.jpg, id=38, 473.66963pt x 183.68625pt>
+File: Imagenes/TP2_EJ2_MEALY_GREY.jpg Graphic file (type jpg)
+<use Imagenes/TP2_EJ2_MEALY_GREY.jpg>
+Package pdftex.def Info: Imagenes/TP2_EJ2_MEALY_GREY.jpg  used on input line 22
+9.
+(pdftex.def)             Requested size: 398.33858pt x 154.47475pt.
+ [5]) (ejercicio3.tex
+<Imagenes/mooreej3.jpg, id=42, 351.56343pt x 237.88875pt>
+File: Imagenes/mooreej3.jpg Graphic file (type jpg)
+<use Imagenes/mooreej3.jpg>
+Package pdftex.def Info: Imagenes/mooreej3.jpg  used on input line 9.
+(pdftex.def)             Requested size: 227.62204pt x 154.01965pt.
+ [6 <./Imagenes/TP2_EJ2_MEALY_GREY.jpg> <./Imagenes/mooreej3.jpg>]
+<Imagenes/circej3moore.jpg, id=47, 519.44063pt x 252.19218pt>
+File: Imagenes/circej3moore.jpg Graphic file (type jpg)
+<use Imagenes/circej3moore.jpg>
+Package pdftex.def Info: Imagenes/circej3moore.jpg  used on input line 111.
+(pdftex.def)             Requested size: 227.62204pt x 110.51082pt.
+ [7]
+<Imagenes/mealyej3.jpg, id=51, 434.52338pt x 87.32625pt>
+File: Imagenes/mealyej3.jpg Graphic file (type jpg)
+<use Imagenes/mealyej3.jpg>
+Package pdftex.def Info: Imagenes/mealyej3.jpg  used on input line 123.
+(pdftex.def)             Requested size: 227.62204pt x 45.7457pt.
+<Imagenes/circej3mealy.jpg, id=52, 291.33844pt x 142.28156pt>
+File: Imagenes/circej3mealy.jpg Graphic file (type jpg)
+<use Imagenes/circej3mealy.jpg>
+Package pdftex.def Info: Imagenes/circej3mealy.jpg  used on input line 153.
+(pdftex.def)             Requested size: 227.62204pt x 111.16586pt.
+ [8 <./Imagenes/circej3moore.jpg> <./Imagenes/mealyej3.jpg> <./Imagenes/circej3
+mealy.jpg>]
+<Imagenes/Conversor.jpg, id=56, 111.41624pt x 151.3153pt>
+File: Imagenes/Conversor.jpg Graphic file (type jpg)
+<use Imagenes/Conversor.jpg>
+Package pdftex.def Info: Imagenes/Conversor.jpg  used on input line 163.
+(pdftex.def)             Requested size: 111.41597pt x 151.31493pt.
+<Imagenes/MedicionTP3_Ej3.png, id=57, 1027.84pt x 825.0825pt>
+File: Imagenes/MedicionTP3_Ej3.png Graphic file (type png)
+<use Imagenes/MedicionTP3_Ej3.png>
+Package pdftex.def Info: Imagenes/MedicionTP3_Ej3.png  used on input line 171.
+(pdftex.def)             Requested size: 398.33858pt x 319.76653pt.
+) [9 <./Imagenes/Conversor.jpg> <./Imagenes/MedicionTP3_Ej3.png (PNG copy)>] (m
+ain.aux (caratula.aux)
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+) ) 
 Here is how much of TeX's memory you used:
- 35858 strings out of 492973
- 901291 string characters out of 3133292
- 1292755 words of memory out of 3000000
- 39145 multiletter control sequences out of 15000+200000
- 7794 words of font info for 30 fonts, out of 3000000 for 9000
+ 36371 strings out of 492973
+ 910572 string characters out of 3133292
+ 1334416 words of memory out of 3000000
+ 39628 multiletter control sequences out of 15000+200000
+ 12116 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,6n,119p,728b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 69i,16n,119p,966b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (10 pages, 801983 bytes).
+PDF statistics:
+ 108 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+
