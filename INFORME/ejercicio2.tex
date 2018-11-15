@@ -35,12 +35,12 @@ El diagrama queda de la siguiente manera:
 
 \begin{figure}[hbtp]
 	\centering
-		\includegraphics[scale=1]{diagestmoore.jpg}
+		\includegraphics[scale=1]{Imagenes/diagestmoore.jpg}
 	\caption{Diagrama de Estados - Máquina de Moore}
 	\label{2_fig0}
 \end{figure}
 
-Se le otorgó a cada estado un valor representativo en binario, siendo el estado A un 0 y el estado E un 4 (el cual al estar en binario se representara como 1-0-0). Como el estado E es un número que necesita 3 bits de memoria, se utilizar\'an 3 flip flop para almacenar el número del estado actual, cada flip flop se representar\'a en este ejercicio como $Q_n$, siendo entonces cada uno representación de un bit del estado en el cual se encuentra el circuito. El flip flop $Q_0$ representa el bit menos significativo, y el $Q_2$ el bit más significativo. Cada estado podr\'a pasar a otro seg\'un la entrada que reciba, como se mostr\'o en el diagrama anterior, ahora pasamos a representar el esquema en una tabla con las variaciones de los estados:
+Se le otorgó a cada estado un valor representativo en binario, siendo el estado A un 0 y el estado E un 6 (el cual al estar en binario se representara como 1-1-0), no utilizamos los valores comunes del 0 al 4 ya que preferimos utilizar el código de Grey para que los flip flops tuvieran menos transiciones al pasar de un estado al otro. Como el estado E es un número que necesita 3 bits de memoria, se utilizar\'an 3 flip flop para almacenar el número del estado actual, cada flip flop se representar\'a en este ejercicio como $Q_n$, siendo entonces cada uno representación de un bit del estado en el cual se encuentra el circuito. El flip flop $Q_0$ representa el bit menos significativo, y el $Q_2$ el bit más significativo. Cada estado podr\'a pasar a otro seg\'un la entrada que reciba, como se mostró en el diagrama anterior, ahora pasamos a representar el esquema en una tabla con las variaciones de los estados:
 
 \begin{figure}[H]
 	\begin{center}
@@ -49,9 +49,9 @@ Se le otorgó a cada estado un valor representativo en binario, siendo el estado
 		\textbf{} & \textbf{W = 0} & \textbf{W = 1} & \textbf{Z} \\ \hline
 		\multicolumn{1}{|c|}{\textbf{A$_{000}$}} & \textbf{A} & \textbf{B} & \textbf{0} \\ \hline
 		\multicolumn{1}{|c|}{\textbf{B$_{001}$}} & \textbf{A} & \textbf{C} & \textbf{0} \\ \hline
-		\multicolumn{1}{|c|}{\textbf{C$_{010}$}} & \textbf{D} & \textbf{A} & \textbf{0} \\ \hline
-		\multicolumn{1}{|c|}{\textbf{D$_{011}$}} & \textbf{A} & \textbf{E} & \textbf{0} \\ \hline
-		\multicolumn{1}{|c|}{\textbf{E$_{100}$}} & \textbf{A} & \textbf{C} & \textbf{1} \\ \hline
+		\multicolumn{1}{|c|}{\textbf{C$_{011}$}} & \textbf{D} & \textbf{A} & \textbf{0} \\ \hline
+		\multicolumn{1}{|c|}{\textbf{D$_{010}$}} & \textbf{A} & \textbf{E} & \textbf{0} \\ \hline
+		\multicolumn{1}{|c|}{\textbf{E$_{110}$}} & \textbf{A} & \textbf{C} & \textbf{1} \\ \hline
 		\end{tabular}
 	\caption{Transiciones con Estados - Máquina de Moore} 
 	\label{2_fig1}
@@ -68,13 +68,13 @@ Si ahora representamos a cada estado con sus respectivos valores $Q_n$ para ver 
 \multicolumn{3}{|c|}{} & \multicolumn{3}{c|}{\textbf{W = 0}} & \multicolumn{3}{c|}{\textbf{W = 1}} &  \\ \hline
 \textbf{$Q_{2_{t}}$} & \textbf{$Q_{1_{t}}$} & \textbf{$Q_{0_{t}}$} & \textbf{$Q_{2_{t+1}}$} & \textbf{$Q_{1_{t+1}}$} & \textbf{$Q_{0_{t+1}}$} & \textbf{$Q_{2_{t+1}}$} & \textbf{$Q_{1_{t+1}}$} & \textbf{$Q_{0_{t+1}}$} & \textbf{Z} \\ \hline
 \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} \\ \hline
-\textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} \\ \hline
-\textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} \\ \hline
-\textbf{0} & \textbf{1} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} \\ \hline
-\textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{1} \\ \hline
-\textbf{1} & \textbf{0} & \textbf{1} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} \\ \hline
-\textbf{1} & \textbf{1} & \textbf{0} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} \\ \hline
+\textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{1} & \textbf{0} \\ \hline
+\textbf{0} & \textbf{1} & \textbf{1} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{1} & \textbf{0} \\ \hline
+\textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{1} & \textbf{0} & \textbf{0} \\ \hline
+\textbf{1} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{1} & \textbf{1} \\ \hline
 \textbf{1} & \textbf{1} & \textbf{1} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} \\ \hline
+\textbf{1} & \textbf{0} & \textbf{1} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} \\ \hline
+\textbf{1} & \textbf{0} & \textbf{0} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} & \textbf{X} \\ \hline
 		\end{tabular}
 		\caption{Transiciones con Flip Flop - Máquina de Moore} 
 		\label{2_fig2}
@@ -86,7 +86,7 @@ Para analizar esta tabla debemos tener en cuenta que para la máquina de Moore l
 \begin{figure}[H]
 	\begin{center}
 	\begin{KarnaughTP3}
-	\contingut{0,0,1,0,0,X,X,X,1,0,0,0,0,X,X,X}
+	\contingut{0,0,1,0,X,X,X,0,1,1,1,0,X,X,X,0}
 	\implicant{2}{6}{red}
 	\implicant{8}{8}{blue}
 	\end{KarnaughTP3}
@@ -149,7 +149,7 @@ También se nos pidi\'o armar una m\'aquina pero de Mealy en lugar de Moore. Par
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.6]{diagestmealy.jpg}
+	\includegraphics[scale=0.6]{Imagenes/diagestmealy.jpg}
 	\caption{Diagrama de Estados - Máquina de Mealy}
 	\label{2_fig7}
 \end{figure}

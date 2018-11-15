@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.23)  14 NOV 2018 21:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.23)  14 NOV 2018 22:35
 entering extended mode
 **./ejercicio2.tex
 (ejercicio2.tex
@@ -1331,23 +1331,14 @@ enefit from \pgfplotsset{compat=1.16} (current compat level: 1.15).
 \c@lstlisting=\count165
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+<Imagenes/diagestmoore.jpg, id=4, 284.56313pt x 200.24812pt>
+File: Imagenes/diagestmoore.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `diagestmoore.jpg' not found on input line 38.
-
-
-! Package pdftex.def Error: File `diagestmoore.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 		\includegraphics[scale=1]{diagestmoore.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<use Imagenes/diagestmoore.jpg>
+Package pdftex.def Info: Imagenes/diagestmoore.jpg used on input line 38.
+(pdftex.def)             Requested size: 284.56242pt x 200.24763pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -1356,35 +1347,27 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/Paulo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{C:/Users/Paulo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Imagenes/
+diagestmoore.jpg>] [2]
+<Imagenes/diagestmealy.jpg, id=23, 338.76563pt x 310.91156pt>
+File: Imagenes/diagestmealy.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `diagestmealy.jpg' not found on input line 152.
-
-
-! Package pdftex.def Error: File `diagestmealy.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.152 ...ludegraphics[scale=0.6]{diagestmealy.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[3] [4] (ejercicio2.aux
+<use Imagenes/diagestmealy.jpg>
+Package pdftex.def Info: Imagenes/diagestmealy.jpg used on input line 152.
+(pdftex.def)             Requested size: 203.26093pt x 186.54836pt.
+ [3] [4 <./Imagenes/diagestmealy.jpg>] [5]
+(ejercicio2.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 35558 strings out of 493328
- 900229 string characters out of 3130072
- 1305346 words of memory out of 3000000
- 38531 multiletter control sequences out of 15000+200000
- 10127 words of font info for 40 fonts, out of 3000000 for 9000
+ 35565 strings out of 493328
+ 900463 string characters out of 3130072
+ 1306346 words of memory out of 3000000
+ 38538 multiletter control sequences out of 15000+200000
+ 9959 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,16n,119p,843b,1062s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,16n,119p,1016b,1062s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/
@@ -1397,11 +1380,10 @@ C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /amsfonts/cm/cmr5.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Paulo/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Paulo/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ejercicio2.pdf (4 pages, 144961 bytes).
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on ejercicio2.pdf (5 pages, 226317 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
