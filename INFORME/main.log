@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700) (preloaded format=pdflatex 2018.11.5)  14 NOV 2018 23:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700) (preloaded format=pdflatex 2018.11.5)  15 NOV 2018 00:04
 entering extended mode
 **./main.tex
 (main.tex
@@ -902,8 +902,8 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@dima=\skip54
 \bigstrutjot=\dimen303
 )
-(karnaugh_def.tex) (KarnaugsparaTP3Ej2.tex) (KarnaugsparaTP3Ej3.tex) (main.aux
-(caratula.aux)
+(karnaugh_def.tex) (karnaugh_def_tp3_ej1_moore.tex) (KarnaugsparaTP3Ej2.tex)
+(KarnaugsparaTP3Ej3.tex) (main.aux (caratula.aux)
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -1041,84 +1041,184 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {C:/Users/milto/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (ejercicio
-2.tex
-<Imagenes/diagestmoore.jpg, id=12, 284.56313pt x 200.24812pt>
+1.tex
+<images/diagrama_estados_moore.png, id=12, 669.83583pt x 489.49542pt>
+File: images/diagrama_estados_moore.png Graphic file (type png)
+<use images/diagrama_estados_moore.png>
+Package pdftex.def Info: images/diagrama_estados_moore.png  used on input line 
+54.
+(pdftex.def)             Requested size: 200.9523pt x 146.84975pt.
+
+[1
+
+] [2 <./images/diagrama_estados_moore.png>]
+<images/input_moore.png, id=24, 579.66562pt x 457.71pt>
+File: images/input_moore.png Graphic file (type png)
+<use images/input_moore.png>
+Package pdftex.def Info: images/input_moore.png  used on input line 183.
+(pdftex.def)             Requested size: 173.90102pt x 137.31406pt.
+<images/jk_toggle_moore.png, id=25, 584.1825pt x 398.23781pt>
+File: images/jk_toggle_moore.png Graphic file (type png)
+<use images/jk_toggle_moore.png>
+Package pdftex.def Info: images/jk_toggle_moore.png  used on input line 196.
+(pdftex.def)             Requested size: 175.25609pt x 119.47226pt.
+ [3 <./images/input_moore.png>]
+<images/multiplexion_moore.png, id=30, 721.19438pt x 515.67656pt>
+File: images/multiplexion_moore.png Graphic file (type png)
+<use images/multiplexion_moore.png>
+Package pdftex.def Info: images/multiplexion_moore.png  used on input line 206.
+
+(pdftex.def)             Requested size: 216.35999pt x 154.70415pt.
+
+
+pdfTeX warning: pdflatex (file ./images/Esquematico_Moore.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<images/Esquematico_Moore.pdf, id=31, 845.07724pt x 597.55246pt>
+File: images/Esquematico_Moore.pdf Graphic file (type pdf)
+<use images/Esquematico_Moore.pdf>
+Package pdftex.def Info: images/Esquematico_Moore.pdf  used on input line 217.
+(pdftex.def)             Requested size: 507.05026pt x 358.53424pt.
+
+Overfull \hbox (23.3534pt too wide) in paragraph at lines 217--218
+ [][] 
+ []
+
+<images/time_diagram_moore.png, id=32, 1004.25188pt x 158.09062pt>
+File: images/time_diagram_moore.png Graphic file (type png)
+<use images/time_diagram_moore.png>
+Package pdftex.def Info: images/time_diagram_moore.png  used on input line 229.
+
+(pdftex.def)             Requested size: 451.90918pt x 71.1401pt.
+<images/medicion_ej1_moore.png, id=33, 1027.84pt x 825.0825pt>
+File: images/medicion_ej1_moore.png Graphic file (type png)
+<use images/medicion_ej1_moore.png>
+Package pdftex.def Info: images/medicion_ej1_moore.png  used on input line 240.
+
+(pdftex.def)             Requested size: 308.35437pt x 247.52666pt.
+[4 <./images/jk_toggle_moore.png> <./images/multiplexion_moore.png> <./images/t
+ime_diagram_moore.png>] [5 <./images/Esquematico_Moore.pdf> <./images/medicion_
+ej1_moore.png (PNG copy)>]
+<images/diagrama_estados_mealy.png, id=49, 1071.00125pt x 466.07458pt>
+File: images/diagrama_estados_mealy.png Graphic file (type png)
+<use images/diagrama_estados_mealy.png>
+Package pdftex.def Info: images/diagrama_estados_mealy.png  used on input line 
+272.
+(pdftex.def)             Requested size: 428.39291pt x 186.42653pt.
+ [6 <./images/diagrama_estados_mealy.png>]
+<images/input_mealy.png, id=54, 1062.21844pt x 318.43968pt>
+File: images/input_mealy.png Graphic file (type png)
+<use images/input_mealy.png>
+Package pdftex.def Info: images/input_mealy.png  used on input line 356.
+(pdftex.def)             Requested size: 318.66798pt x 95.53264pt.
+<images/multiplexion_mealy.png, id=55, 860.46469pt x 484.05844pt>
+File: images/multiplexion_mealy.png Graphic file (type png)
+<use images/multiplexion_mealy.png>
+Package pdftex.def Info: images/multiplexion_mealy.png  used on input line 365.
+
+(pdftex.def)             Requested size: 258.1414pt x 145.21864pt.
+
+
+pdfTeX warning: pdflatex (file ./images/Esquematico_Mealy.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<images/Esquematico_Mealy.pdf, id=56, 845.07724pt x 597.55246pt>
+File: images/Esquematico_Mealy.pdf Graphic file (type pdf)
+<use images/Esquematico_Mealy.pdf>
+Package pdftex.def Info: images/Esquematico_Mealy.pdf  used on input line 376.
+(pdftex.def)             Requested size: 507.05026pt x 358.53424pt.
+
+Overfull \hbox (23.3534pt too wide) in paragraph at lines 376--377
+ [][] 
+ []
+
+[7 <./images/input_mealy.png> <./images/multiplexion_mealy.png>]
+<images/time_diagram_mealy.png, id=60, 1195.80083pt x 161.60374pt>
+File: images/time_diagram_mealy.png Graphic file (type png)
+<use images/time_diagram_mealy.png>
+Package pdftex.def Info: images/time_diagram_mealy.png  used on input line 388.
+
+(pdftex.def)             Requested size: 418.53656pt x 56.56215pt.
+<images/medicion_ej1_mealy.png, id=61, 1027.84pt x 825.0825pt>
+File: images/medicion_ej1_mealy.png Graphic file (type png)
+<use images/medicion_ej1_mealy.png>
+Package pdftex.def Info: images/medicion_ej1_mealy.png  used on input line 399.
+
+(pdftex.def)             Requested size: 308.35437pt x 247.52666pt.
+)
+(ejercicio2.tex [8 <./images/Esquematico_Mealy.pdf> <./images/time_diagram_meal
+y.png>]
+<Imagenes/diagestmoore.jpg, id=74, 284.56313pt x 200.24812pt>
 File: Imagenes/diagestmoore.jpg Graphic file (type jpg)
 <use Imagenes/diagestmoore.jpg>
 Package pdftex.def Info: Imagenes/diagestmoore.jpg  used on input line 9.
 (pdftex.def)             Requested size: 398.33858pt x 280.3424pt.
-
-[1
-
- <./Imagenes/diagestmoore.jpg>] [2]
-<Imagenes/TP2_EJ2_MOORE_GREY.jpg, id=29, 521.84962pt x 313.77225pt>
+ [9 <./images/medicion_ej1_mealy.png (PNG copy)> <./Imagenes/diagestmoore.jpg>]
+ [10]
+<Imagenes/TP2_EJ2_MOORE_GREY.jpg, id=86, 521.84962pt x 313.77225pt>
 File: Imagenes/TP2_EJ2_MOORE_GREY.jpg Graphic file (type jpg)
 <use Imagenes/TP2_EJ2_MOORE_GREY.jpg>
 Package pdftex.def Info: Imagenes/TP2_EJ2_MOORE_GREY.jpg  used on input line 12
 0.
 (pdftex.def)             Requested size: 398.33858pt x 239.50832pt.
- [3 <./Imagenes/TP2_EJ2_MOORE_GREY.jpg>]
-<Imagenes/diagestmealy.jpg, id=34, 338.76563pt x 310.91156pt>
+ [11]
+<Imagenes/diagestmealy.jpg, id=91, 338.76563pt x 310.91156pt>
 File: Imagenes/diagestmealy.jpg Graphic file (type jpg)
 <use Imagenes/diagestmealy.jpg>
 Package pdftex.def Info: Imagenes/diagestmealy.jpg  used on input line 132.
 (pdftex.def)             Requested size: 203.26093pt x 186.54836pt.
-
-[4 <./Imagenes/diagestmealy.jpg>]
-<Imagenes/TP2_EJ2_MEALY_GREY.jpg, id=38, 473.66963pt x 183.68625pt>
+ [12 <./Imagenes/TP2_EJ2_MOORE_GREY.jpg> <./Imagenes/diagestmealy.jpg>] [13]
+<Imagenes/TP2_EJ2_MEALY_GREY.jpg, id=99, 473.66963pt x 183.68625pt>
 File: Imagenes/TP2_EJ2_MEALY_GREY.jpg Graphic file (type jpg)
 <use Imagenes/TP2_EJ2_MEALY_GREY.jpg>
 Package pdftex.def Info: Imagenes/TP2_EJ2_MEALY_GREY.jpg  used on input line 22
 9.
 (pdftex.def)             Requested size: 398.33858pt x 154.47475pt.
- [5]) (ejercicio3.tex
-<Imagenes/mooreej3.jpg, id=42, 351.56343pt x 237.88875pt>
+) (ejercicio3.tex
+<Imagenes/mooreej3.jpg, id=100, 351.56343pt x 237.88875pt>
 File: Imagenes/mooreej3.jpg Graphic file (type jpg)
 <use Imagenes/mooreej3.jpg>
 Package pdftex.def Info: Imagenes/mooreej3.jpg  used on input line 9.
 (pdftex.def)             Requested size: 227.62204pt x 154.01965pt.
- [6 <./Imagenes/TP2_EJ2_MEALY_GREY.jpg> <./Imagenes/mooreej3.jpg>]
-<Imagenes/circej3moore.jpg, id=47, 519.44063pt x 252.19218pt>
+ [14 <./Imagenes/TP2_EJ2_MEALY_GREY.jpg>]
+[15 <./Imagenes/mooreej3.jpg>]
+<Imagenes/circej3moore.jpg, id=107, 519.44063pt x 252.19218pt>
 File: Imagenes/circej3moore.jpg Graphic file (type jpg)
 <use Imagenes/circej3moore.jpg>
 Package pdftex.def Info: Imagenes/circej3moore.jpg  used on input line 111.
 (pdftex.def)             Requested size: 227.62204pt x 110.51082pt.
- [7]
-<Imagenes/mealyej3.jpg, id=51, 434.52338pt x 87.32625pt>
+<Imagenes/mealyej3.jpg, id=108, 434.52338pt x 87.32625pt>
 File: Imagenes/mealyej3.jpg Graphic file (type jpg)
 <use Imagenes/mealyej3.jpg>
 Package pdftex.def Info: Imagenes/mealyej3.jpg  used on input line 123.
 (pdftex.def)             Requested size: 227.62204pt x 45.7457pt.
-<Imagenes/circej3mealy.jpg, id=52, 291.33844pt x 142.28156pt>
+ [16 <./Imagenes/circej3moore.jpg> <./Imagenes/mealyej3.jpg>]
+<Imagenes/circej3mealy.jpg, id=112, 291.33844pt x 142.28156pt>
 File: Imagenes/circej3mealy.jpg Graphic file (type jpg)
 <use Imagenes/circej3mealy.jpg>
 Package pdftex.def Info: Imagenes/circej3mealy.jpg  used on input line 153.
 (pdftex.def)             Requested size: 227.62204pt x 111.16586pt.
- [8 <./Imagenes/circej3moore.jpg> <./Imagenes/mealyej3.jpg> <./Imagenes/circej3
-mealy.jpg>]
-<Imagenes/Conversor.jpg, id=56, 111.41624pt x 151.3153pt>
+<Imagenes/Conversor.jpg, id=113, 111.41624pt x 151.3153pt>
 File: Imagenes/Conversor.jpg Graphic file (type jpg)
 <use Imagenes/Conversor.jpg>
 Package pdftex.def Info: Imagenes/Conversor.jpg  used on input line 163.
 (pdftex.def)             Requested size: 111.41597pt x 151.31493pt.
-<Imagenes/MedicionTP3_Ej3.png, id=57, 1027.84pt x 825.0825pt>
+<Imagenes/MedicionTP3_Ej3.png, id=114, 1027.84pt x 825.0825pt>
 File: Imagenes/MedicionTP3_Ej3.png Graphic file (type png)
 <use Imagenes/MedicionTP3_Ej3.png>
 Package pdftex.def Info: Imagenes/MedicionTP3_Ej3.png  used on input line 171.
 (pdftex.def)             Requested size: 398.33858pt x 319.76653pt.
-) [9 <./Imagenes/Conversor.jpg> <./Imagenes/MedicionTP3_Ej3.png (PNG copy)>] (m
-ain.aux (caratula.aux)
+ [17 <./Imagenes/circej3mealy.jpg> <./Imagenes/Conversor.jpg>])
+[18 <./Imagenes/MedicionTP3_Ej3.png (PNG copy)>] (main.aux (caratula.aux)
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 36371 strings out of 492973
- 910572 string characters out of 3133292
- 1334416 words of memory out of 3000000
- 39628 multiletter control sequences out of 15000+200000
- 12116 words of font info for 46 fonts, out of 3000000 for 9000
+ 36481 strings out of 492973
+ 913455 string characters out of 3133292
+ 1346571 words of memory out of 3000000
+ 39717 multiletter control sequences out of 15000+200000
+ 12462 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,16n,119p,966b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,16n,119p,1078b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C
@@ -1133,10 +1233,11 @@ x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (10 pages, 801983 bytes).
+nts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (19 pages, 1427933 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 172 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
