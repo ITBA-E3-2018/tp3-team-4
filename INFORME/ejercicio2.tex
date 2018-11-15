@@ -143,7 +143,9 @@ Tomando las agrupaciones marcadas en cada mapa podemos formas las ecuaciones que
 	Q_{2_{t+1}} &= W * \overline{Q_{2}} * Q_{1} * \overline{Q_{0}} \\
 	Z &= Q_{2} \\
 \end{align*}
-Una vez que ya tenemos las ecuaciones procedemos a armar el circuito, una simulación por verilog y realizar las mediciones para ver el funcionamiento de la máquina de estado.
+Una vez que ya tenemos las ecuaciones procedemos a armar el circuito.
+
+
 
 
 \subsection{Mealy}
@@ -201,12 +203,10 @@ Teniendo en cuenta que la única diferencia en esta parte con respecto a Moore e
 \begin{figure}[H]
 	\begin{center}
 		\begin{KarnaughvuiteTP3}
-		\minterms{4,5,6}
-		\maxterms{0,1,3,2,7}
+		\minterms{4,5,6,7}
+		\maxterms{0,1,2,3}
 		%\indeterminats{2,5}
-		\implicant{4}{5}{green}
-		\implicant{6}{4}{red}
-		%\implicant{7}{7}{blue}
+		\implicant{4}{6}{green}
 		\end{KarnaughvuiteTP3}
 	\end{center}
 	\caption{$Q_{0_{t+1}}$ Máq. de Mealy} 
@@ -216,11 +216,11 @@ Teniendo en cuenta que la única diferencia en esta parte con respecto a Moore e
 \begin{figure}[H]
 	\begin{center}
 		\begin{KarnaughvuiteTP3}	
-		\minterms{2,5}
-		\maxterms{0,1,3,4,6,7}
+		\minterms{3,5,7}
+		\maxterms{0,1,2,4,6}
 		%\indeterminats{2,5}
-		\implicant{2}{2}{green}
-		\implicant{5}{5}{red}
+		\implicant{3}{7}{green}
+		\implicant{5}{7}{red}
 		\end{KarnaughvuiteTP3}
 	\end{center}
 	\caption{$Q_{1_{t+1}}$ Máq. de Mealy} 
@@ -230,14 +230,22 @@ Teniendo en cuenta que la única diferencia en esta parte con respecto a Moore e
 \begin{figure}[H]
 	\begin{center}
 		\begin{KarnaughvuiteTP3}
-		\minterms{7}
-		\maxterms{0,1,2,3,4,5,6}
+		\minterms{6}
+		\maxterms{0,1,2,3,4,5,7}
 		%\indeterminats{2,5}
-		\implicant{7}{7}{green}
+		\implicant{6}{6}{green}
 		\end{KarnaughvuiteTP3}
 	\end{center}
 	\caption{$Z$: Salida - Máq. de Mealy} 
 	\label{2_fig12}
 \end{figure}
 
+Tomando las agrupaciones marcadas en cada mapa podemos formas las ecuaciones que representarán a  $Q_{0_{t+1}}, Q_{1_{t+1}}, Q_{2_{t+1}}$ y $Z$ respectivamente, quedando las ecuaciones de la siguiente manera:
+
+\begin{align*}
+	Q_{0_{t+1}} &= W  \\
+	Q_{1_{t+1}} &= Q_{0} * ( Q_{1} + w ) \\
+	Z &= w * Q_{1} * \overline{Q_{0}} \\
+\end{align*}
+De estas ecuaciones podemos formar el siguiente circuito.
 \end{document}
