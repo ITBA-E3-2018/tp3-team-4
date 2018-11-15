@@ -1,42 +1,12 @@
-\documentclass[10pt,a4paper]{article}
-\usepackage{tikz}
-\usetikzlibrary{matrix,calc}
-\usepackage{multirow}
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{circuitikz}
-\usepackage{tikz-timing}
-\usetikztiminglibrary[rising arrows]{clockarrows}
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.15}
-\usepackage{listings}
-\usepackage[export]{adjustbox}
-\usepackage{graphicx,wrapfig,lipsum}
-\usepackage{booktabs}
-\usepackage[skip=0pt]{caption}
-\usepackage{pdfpages}
-\captionsetup[figure]{font=small,labelfont=small}
-
-
-\input{karnaugh_def}
-\input{KarnaugsparaTP3Ej2}
-
-\begin{document}
 \section*{Ejercicio 2}
 
 \subsection*{Moore}
 Se nos pidi\'o realizar una m\'aquina de Moore y una de Mealy que puedan detectar la secuencia 1-1-0-1 y avise en la salida al detectarla. Para esto tuvimos en cuenta que cuando termina la secuencia y es detectada se toma el \'ultimo 1 de la secuencia como el primero de la siguiente secuencia en caso de que ocurran 2 secuencias seguidas, la cual ser\'ia 1-1-0-1-1-0-1. Primero diseñamos un diagrama de estados basándonos en la m\'aquina de Moore, donde tendremos 5 estados. El estado A es el caso base donde se recibió un 0 fuera de la secuencia pedida, el estado B es el caso donde se recibió el primer 1, el estado C es el caso donde se recibe el segundo 1, el estado D donde se recibe la secuencia 1-1-0 y el estado E es cuando se recibe la secuencia completa. 
 El diagrama queda de la siguiente manera:
 
-\begin{figure}[hbtp]
+\begin{figure}[H]
 	\centering
-		\includegraphics[scale=1]{Imagenes/diagestmoore.jpg}
+		\includegraphics[width=14cm]{Imagenes/diagestmoore.jpg}
 	\caption{Diagrama de Estados - Máquina de Moore}
 	\label{2_fig0}
 \end{figure}
@@ -151,11 +121,7 @@ Una vez que ya tenemos las ecuaciones procedemos a armar el circuito:
 \caption{Circuito lógico de Moore}
 \end{figure}
 
-%%%%				VERILOOOOOOG
-
-
-
-Pudimos observar que el circuito encuentra bien la secuencia pedida.
+Con este circuito y una simulación en Verilog que se encuentra en el repositorio pudimos ver si se cumplía lo pedido y se observó que el circuito encuentra bien la secuencia pedida.
 
 \subsection*{Mealy}
 
@@ -267,4 +233,3 @@ De estas ecuaciones podemos formar el siguiente circuito:
 %% 	VERILOG MEALY
 
 Con esto podemos concluir que el circuito de Mealy es mejor que el de Moore ya que utiliza menos integrados y realiza la misma función. Observando ambos circuitos pudimos ver que realizaban lo pedido de encontrar la secuencia.
-\end{document}
