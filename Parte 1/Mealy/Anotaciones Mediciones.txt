@@ -1,0 +1,5 @@
+De abajo para arriba:
+CH1: b1
+CH2: b2
+CH3: S (Sensor Superior)
+CH4: I (Sensor Inferior)

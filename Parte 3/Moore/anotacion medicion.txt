@@ -1,0 +1,5 @@
+de abajo para arriba:
+CH1: Input(w)
+CH2: y1
+CH3: y0
+CH4: Output(z)
