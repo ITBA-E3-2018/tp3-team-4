@@ -1,8 +1,8 @@
-module FSMmoore(clk,reset,w,out);
-	input clk,resetn,w:
+module FSMmoore(clk,resetn,w,out);
+	input clk,resetn,w;
 	output out;
 	reg [3:1] y, Y;
-	parameter [3:1] A=3’b000, B=3b001, C=3’b011, D=3’b010, E=3’b110;
+	parameter [3:1] A=3'b000, B=3'b001, C=3'b011, D=3'b010, E=3'b110;
 
 // comportamiento de estado a estado
 always @(w or y)
@@ -17,7 +17,7 @@ always @(w or y)
 		    else y<=A;
 		E: if(w) y<=C;
 		    else y<=A;
-		default:Y=3’bxxx;
+		default:Y=3'bxxx;
 	endcase
 
 //bloque secuencial
@@ -28,7 +28,16 @@ always @(posedge clk or negedge resetn)
 
 assign out=(y==E); // conecto un cable desde un comprador del estado actual y el “estado E” a la salida
 
+reg dummy;
+  reg[8*64:0] dumpfile_path = "outputmoore.vcd";
+
+  initial begin
+    dummy = $value$plusargs("VCD_PATH=%s", dumpfile_path);
+    $dumpfile(dumpfile_path);
+    $dumpvars(0,FSMmoore);
+  end
 endmodule
+
 
 
 	

@@ -6,9 +6,9 @@ module mealyTest;
   clock_gen clk_gen(clk);
   reg resetn = 1;
 
-  wire[1:0] w,z;
-  
-  FSMmealy myFSM(clk,resetn,w,z);
+  reg  out;
+ reg w; 
+  FSMmealy myFSM(clk,resetn,w,out);
   initial begin
 
     #1
@@ -40,7 +40,7 @@ module mealyTest;
 
 
 
-	$monitor("Clock: %d, W: %d, Z: %d",clk,w,z);
+	//$monitor("Clock: %d, W: %d, Z: %d",clk,w,out);
 	
 
 
@@ -52,7 +52,7 @@ module mealyTest;
   initial begin
     dummy = $value$plusargs("VCD_PATH=%s", dumpfile_path);
     $dumpfile(dumpfile_path);
-    $dumpvars(0,FSMmealy);
+    $dumpvars(0,mealyTest);
   end
 
 endmodule // End of Module hello_world

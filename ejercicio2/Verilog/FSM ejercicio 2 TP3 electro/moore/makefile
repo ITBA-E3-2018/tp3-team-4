@@ -1,7 +1,7 @@
 # This makefile is inspired from: https://stackoverflow.com/questions/7004702/how-can-i-create-a-makefile-for-c-projects-with-src-obj-and-bin-subdirectories
 
 # project name (generate executable with this name)
-TARGET   = FSMmoore
+TARGET   = mooregtk
 
 GTKWAVE = gtkwave
 VCD_OUTPUT = output.vcd
