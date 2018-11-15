@@ -20,6 +20,7 @@
 \usepackage{graphicx,wrapfig,lipsum}
 \usepackage{booktabs}
 \usepackage[skip=0pt]{caption}
+\usepackage{pdfpages}
 \captionsetup[figure]{font=small,labelfont=small}
 
 
@@ -86,9 +87,10 @@ Para analizar esta tabla debemos tener en cuenta que para la máquina de Moore l
 \begin{figure}[H]
 	\begin{center}
 	\begin{KarnaughTP3}
-	\contingut{0,0,1,0,X,X,X,0,1,1,1,0,X,X,X,0}
-	\implicant{2}{6}{red}
-	\implicant{8}{8}{blue}
+	\contingut{0,0,0,0,X,X,0,X,1,1,0,1,X,X,1,X}
+	\implicant{12}{14}{red}
+	\implicant{12}{9}{blue}
+	\implicant{13}{11}{green}
 	\end{KarnaughTP3}
 	\end{center}
 	\caption{$Q_{0_{t+1}}$ Máq. de Moore} 
@@ -98,10 +100,11 @@ Para analizar esta tabla debemos tener en cuenta que para la máquina de Moore l
 \begin{figure}[H]
 	\begin{center}
 		\begin{KarnaughTP3}
-		\contingut{0,0,1,0,0,X,X,X,0,1,0,0,1,X,X,X}
-		\implicant{2}{6}{orange}
-		\implicant{13}{9}{green}
-		\implicant{12}{14}{red}
+		\contingut{0,0,0,1,X,X,0,X,0,1,1,1,X,X,1,X}
+		\implicant{12}{14}{orange}
+		\implicant{13}{11}{green}
+		\implicant{3}{11}{red}
+		\implicant{15}{10}{blue}
 		\end{KarnaughTP3}
 	\end{center}
 	\caption{$Q_{1_{t+1}}$ Máq. de Moore} 
@@ -111,8 +114,8 @@ Para analizar esta tabla debemos tener en cuenta que para la máquina de Moore l
 \begin{figure}[H]
 	\begin{center}
 		\begin{KarnaughTP3}
-		\contingut{0,0,0,0,0,X,X,X,0,0,0,1,0,X,X,X}
-		\implicant{15}{11}{red}
+		\contingut{0,0,0,0,X,X,0,X,0,0,1,0,X,X,0,X}
+		\implicant{10}{10}{red}
 		\end{KarnaughTP3}
 	\end{center}
 	\caption{$Q_{2_{t+1}}$ Máq. de Moore} 
@@ -121,12 +124,12 @@ Para analizar esta tabla debemos tener en cuenta que para la máquina de Moore l
 	
 \begin{figure}[H]
 	\begin{center}
-		\begin{KarnaughvuiteTP3}
-		\minterms{4}
+		\begin{KarnaughvuiteQ2TP3}
+		\minterms{6}
 		\maxterms{0,1,2,3}
-		\indeterminats{5,6,7}
+		\indeterminats{5,4,7}
 		\implicant{4}{6}{orange}
-		\end{KarnaughvuiteTP3}
+		\end{KarnaughvuiteQ2TP3}
 	\end{center}
 	\caption{$Z$: Salida - Máq. de Moore} 
 	\label{2_fig6}
@@ -135,9 +138,9 @@ Para analizar esta tabla debemos tener en cuenta que para la máquina de Moore l
 Tomando las agrupaciones marcadas en cada mapa podemos formas las ecuaciones que representarán a  $Q_{0_{t+1}}, Q_{1_{t+1}}, Q_{2_{t+1}}$ y $Z$ respectivamente, quedando las ecuaciones de la siguiente manera:
 
 \begin{align*}
-	Q_{0_{t+1}} &= W\overline{Q_{2}} \overline{Q_{1}} \overline{Q_{0}} + \overline{W}Q_{1}\overline{Q_{0}} \\
-	Q_{1_{t+1}} &= WQ_{2} + W\overline{Q_{1}}Q_{0} + \overline{W}Q_{1}\overline{Q_{0}} \\
-	Q_{2_{t+1}} &= WQ_{1}Q_{0} \\
+	Q_{0_{t+1}} &= W * \overline{Q_{1}} + W * ( Q_{2} + Q_{0} ) \\
+	Q_{1_{t+1}} &= W * ( Q_{2} + Q_{0} ) + Q_{1} * ( W + Q_{0} ) \\
+	Q_{2_{t+1}} &= W * \overline{Q_{2}} * Q_{1} * \overline{Q_{0}} \\
 	Z &= Q_{2} \\
 \end{align*}
 Una vez que ya tenemos las ecuaciones procedemos a armar el circuito, una simulación por verilog y realizar las mediciones para ver el funcionamiento de la máquina de estado.
@@ -164,7 +167,7 @@ Partiendo de este nuevo diagrama, se tabula un nuevo cuadro con la transiciones 
  & \textbf{W = 0} & \textbf{W = 1} & \textbf{W = 0} & \textbf{W = 1} \\ \hline
 \textbf{A$_{000}$} & \textbf{A} & \textbf{B} & \textbf{0} & \textbf{0} \\ \hline
 \textbf{B$_{001}$} & \textbf{A} & \textbf{C} & \textbf{0} & \textbf{0} \\ \hline
-\textbf{C$_{010}$} & \textbf{D} & \textbf{A} & \textbf{0} & \textbf{0} \\ \hline
+\textbf{C$_{010}$} & \textbf{D} & \textbf{C} & \textbf{0} & \textbf{0} \\ \hline
 \textbf{D$_{011}$} & \textbf{A} & \textbf{B} & \textbf{0} & \textbf{1} \\ \hline
 		\end{tabular}
 	\caption{Transiciones - Máquina de Mealy} 
@@ -185,7 +188,7 @@ En este caso hicimos un análisis previo y decidimos ordenar los estados por có
 \textbf{$Q_{1_{t}}$} & \textbf{$Q_{0_{t}}$} & \textbf{$Q_{1_{t+1}}$} & \textbf{$Q_{0_{t+1}}$} & \textbf{$Q_{1_{t+1}}$} & \textbf{$Q_{0_{t+1}}$} & \textbf{W = 0} & \textbf{W = 1} \\ \hline
 \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} \\ \hline
 \textbf{0} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{1} & \textbf{0} & \textbf{0} \\ \hline
-\textbf{1} & \textbf{1} & \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} \\ \hline
+\textbf{1} & \textbf{1} & \textbf{1} & \textbf{0} & \textbf{1} & \textbf{1} & \textbf{0} & \textbf{0} \\ \hline
 \textbf{1} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{0} & \textbf{1} & \textbf{0} & \textbf{1} \\ \hline
 		\end{tabular}
 	\caption{Transiciones con Flip Flop - Máquina de Mealy} 

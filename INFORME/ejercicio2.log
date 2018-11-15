@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.23)  14 NOV 2018 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.23)  14 NOV 2018 23:11
 entering extended mode
 **./ejercicio2.tex
 (ejercicio2.tex
@@ -1203,40 +1203,81 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
+)
+("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.
+sty"
+Package: pdfpages 2017/08/14 v0.5k Insert pages of external PDF documents (AM)
+
+("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count159
+\calc@Bcount=\count160
+\calc@Adimen=\dimen291
+\calc@Bdimen=\dimen292
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count161
+\calc@Cskip=\skip52
+)
+("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.st
+y"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegsh
+i.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+))
+\AM@pagewidth=\dimen293
+\AM@pageheight=\dimen294
+
+("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
+def"
+File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box49
+\AM@global@opts=\toks48
+\AM@toc@title=\toks49
+\c@AM@survey=\count162
+\AM@templatesizebox=\box50
 ) (karnaugh_def.tex) (KarnaugsparaTP3Ej2.tex) (ejercicio2.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
 \openout1 = `ejercicio2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 ABD: EveryShipout initializing macros
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count159
-\scratchdimen=\dimen291
-\scratchbox=\box49
-\nofMPsegments=\count160
-\nofMParguments=\count161
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count162
-\MPscratchDim=\dimen292
-\MPnumerator=\count163
-\makeMPintoPDFobject=\count164
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count163
+\scratchdimen=\dimen295
+\scratchbox=\box51
+\nofMPsegments=\count164
+\nofMParguments=\count165
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count166
+\MPscratchDim=\dimen296
+\MPnumerator=\count167
+\makeMPintoPDFobject=\count168
+\everyMPtoPDFconversion=\toks51
 )
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
 mds.sty"
@@ -1288,8 +1329,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1328,21 +1369,32 @@ LaTeX Info: Redefining \% on input line 29.
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.16} (current compat level: 1.15).
 
-\c@lstlisting=\count165
+\c@lstlisting=\count169
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<Imagenes/diagestmoore.jpg, id=4, 284.56313pt x 200.24812pt>
+\AtBeginShipoutBox=\box52
+
+("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape
+.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.st
+y"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) <Imagenes/diagestmoore.jpg, id=4, 284.56313pt x 200.24812pt>
 File: Imagenes/diagestmoore.jpg Graphic file (type jpg)
 
 <use Imagenes/diagestmoore.jpg>
-Package pdftex.def Info: Imagenes/diagestmoore.jpg used on input line 38.
+Package pdftex.def Info: Imagenes/diagestmoore.jpg used on input line 39.
 (pdftex.def)             Requested size: 284.56242pt x 200.24763pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
 
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 ("C:\Users\Paulo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -1353,7 +1405,7 @@ diagestmoore.jpg>] [2]
 File: Imagenes/diagestmealy.jpg Graphic file (type jpg)
 
 <use Imagenes/diagestmealy.jpg>
-Package pdftex.def Info: Imagenes/diagestmealy.jpg used on input line 152.
+Package pdftex.def Info: Imagenes/diagestmealy.jpg used on input line 155.
 (pdftex.def)             Requested size: 203.26093pt x 186.54836pt.
  [3] [4 <./Imagenes/diagestmealy.jpg>] [5]
 (ejercicio2.aux
@@ -1361,13 +1413,13 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 35565 strings out of 493328
- 900463 string characters out of 3130072
- 1306346 words of memory out of 3000000
- 38538 multiletter control sequences out of 15000+200000
+ 36372 strings out of 493328
+ 913895 string characters out of 3130072
+ 1323573 words of memory out of 3000000
+ 39317 multiletter control sequences out of 15000+200000
  9959 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,16n,119p,1016b,1062s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,16n,119p,1016b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/
@@ -1380,10 +1432,11 @@ C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /amsfonts/cm/cmr5.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/Paulo/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Paulo/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on ejercicio2.pdf (5 pages, 226317 bytes).
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Paulo/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on ejercicio2.pdf (5 pages, 233811 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
